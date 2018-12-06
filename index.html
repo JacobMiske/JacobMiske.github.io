@@ -1,133 +1,203 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
 <title>NeuDrop</title>
+
 <meta charset="utf-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
+
 * {
+
     box-sizing: border-box;
+
 }
+
+
 
 body {
+
     font-family: Arial, Helvetica, sans-serif;
-}
+     
+ }
+
 
 /* Style the header */
+
 header {
-    background-color: #666;
+
+    background-color: white;
+
     padding: 30px;
+
     text-align: center;
+
     font-size: 35px;
+
     color: blue;
+
+
 }
+
+
 
 /* Container for flexboxes */
+
 section {
+
     display: -webkit-flex;
+
     display: flex;
+
 }
+
+
 
 /* Style the navigation menu */
+
 nav {
+
     -webkit-flex: 1;
+
     -ms-flex: 1;
+
     flex: 1;
+
     background: #ccc;
+
     padding: 20px;
+
 }
+
+
 
 /* Style the list inside the menu */
+
 nav ul {
+
     list-style-type: none;
+
     padding: 0;
+
 }
+
+
 
 /* Style the content */
+
 article {
+
     -webkit-flex: 3;
+
     -ms-flex: 3;
+
     flex: 3;
+
     background-color: #f1f1f1;
+
     padding: 10px;
+
 }
+
+
 
 /* Style the footer */
+
 footer {
+
     background-color: #777;
+
     padding: 10px;
+
     text-align: center;
+
     color: blue;
+
 }
+
+
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+
 @media (max-width: 600px) {
+
     section {
+
       -webkit-flex-direction: column;
+
       flex-direction: column;
+
     }
+
 }
+
 </style>
+
 </head>
+
 <body>
+	<header>
+		<h1>NeuDrop</h1>
+		<p></p>
+		
+	</header>
+	<article>
+		<header>
+			
+			<nav>
+				<h3>Page link</h3>
+				<ul>
+					<li><a href="#sectionA">Simulation</a></li>
+					<li><a href="#sectionB">Water Content</a></li>
+					<li><a href="#sectionC">Solar Activity</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="sectionA">
+			<header>
+				<h3>Simulation</h3>
+				<p></p>
+			</header>
+			<p>We used Geant 4 , a gold standard toolkit in <br> simulating paticle trals</p>
+			<p>Sample geometry similar to soil conditions <br> was tested for a variety depths<br>
+			and soil characteristics</p>
+			
+		</section>
+		<section id="sectionB">
+			<header>
+				<h3>Water Content</h3>
+				<p></p>
+			</header>
+			<p>Real TIme Soil Water Content </p>
+			<p>...</p>
+		</section>
+		<section id="sectionC">
+			<header>
+				<h3>Solar Activity</h3>
+				<p></p>
+			</header>
+			<p>Detail</p>
+			<p>...</p>
+		</section>
+	</article> 
+ <footer>
 
-<h2>22.033 Nuclear Systems Design Project</h2>
-<p>In this project, we have created a new type of neutron detector, using new innovations in electronics and physical design. On the device, the modified BPW photodiodes produce a signal that is proportional to background neutron counts.</p>
-<p>The physical design is meant to be easy for the farming community to use.</p>
-<p><strong>Note:</strong> The design is in the prototype stage and subject to a variety of changes.</p>
-
-<header>
-  <h2>NeuDrop</h2>
-</header>
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">Simulations</a></li>
-      <li><a href="#">Testing</a></li>
-      <li><a href="#">Design</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>Simulations</h1>
-    <p>We used Geant4, a gold standard toolkit in simulating particle tracks.</p>
-    <p>Sample geometry similar to soil conditions was tested for a variety of detector depths and soil characteristics.</p>
-  </article>
-</section>
-
-	
-	
-<div class="tab_wrap">
-	<input id="energy" type="radio" name="tab_btn" checked>
-	<input id="tab2" type="radio" name="tab_btn">
-	<input id="tab3" type="radio" name="tab_btn">
- 
-	<div class="tab_area">
-		<label class="energy_label" for="energy">energy</label>
-		<label class="tab2_label" for="tab2">tab2</label>
-		<label class="tab3_label" for="tab3">tab3</label>
-	</div>
-	<div class="panel_area">
-		<div id="panel1" class="tab_panel">
-			<p>panel1</p>
-		</div>
-		<div id="panel2" class="tab_panel">
-			<p>panel2</p>
-		</div>
-		<div id="panel3" class="tab_panel">
-			<p>panel3</p>
-		</div>
-	</div>
-</div>
-<script src="test.js"></script>
-<script src="main.css"></script>
-
-	
-<footer>
   <p>Footer</p>
+
 </footer>
 
-	
 </body>
+
+
+
+
+
+
+
+
 </html>
