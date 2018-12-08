@@ -137,13 +137,13 @@ path {
 	
 	
 	<header>
-		<section>
+		
 		<script>
 
 		// Set the dimensions of the canvas / graph
 		var margin = {top: 30, right: 20, bottom: 70, left: 50},
-		    width = 1500 - margin.left - margin.right,
-		    height = 600 - margin.top - margin.bottom;
+		    width = 1650 - margin.left - margin.right,
+		    height = 800 - margin.top - margin.bottom;
 
 		// Parse the date / time
 		var parseDate = d3.time.format("%b %Y").parse;
@@ -279,7 +279,10 @@ path {
 				<p></p>
 			</header>
 			<p>Detail</p>
-			<p><img src="Solar.png" alt="Solar Correction" style="width:500px;height:600px;"></p>
+			
+			<div class=”media”>
+				<img src="Solar.png" alt="Solar Correction" style="width:500px;height:600px;">
+			</div>
 			<p>Solar activity mapped to solar panel usage. Correlated to effects on background neutron population.</p>
 		</section>
 	</article> 
