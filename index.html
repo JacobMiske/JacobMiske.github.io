@@ -31,7 +31,7 @@ body {
 
 header {
 
-    background-color: white;
+    background-color: blue;
 
     padding: 30px;
 
@@ -39,7 +39,7 @@ header {
 
     font-size: 35px;
 
-    color: blue;
+    color: black;
 
 
 }
@@ -116,7 +116,7 @@ footer {
 
     text-align: center;
 
-    color: blue;
+    color: black;
 
 }
 
@@ -200,7 +200,7 @@ path.area {
 
 <script>
 
-var margin = {top: 40, right: 40, bottom: 40, left: 40},
+var margin = {top: 40, right: 40, bottom: 40, left: 200},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -225,12 +225,12 @@ var area = d3.svg.area()
     .interpolate("monotone")
     .x(function(d) { return x(d.date); })
     .y0(height)
-    .y1(function(d) { return y(d.price); });
+    .y1(function(d) { return y(d.moisture); });
 
 var line = d3.svg.line()
     .interpolate("monotone")
     .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.price); });
+    .y(function(d) { return y(d.moisture); });
 
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -244,12 +244,12 @@ svg.append("clipPath")
     .attr("width", width)
     .attr("height", height);
 
-d3.csv("readme.csv", type, function(error, data) {
+d3.csv("readmeneudrop.csv", type, function(error, data) {
   if (error) throw error;
 
   // Compute the minimum and maximum date, and the maximum price.
   x.domain([data[0].date, data[data.length - 1].date]);
-  y.domain([0, d3.max(data, function(d) { return d.price; })]).nice();
+  y.domain([0, d3.max(data, function(d) { return d.moisture; })]).nice();
 
   svg
       .datum(data)
@@ -298,8 +298,8 @@ d3.csv("readme.csv", type, function(error, data) {
 // Also filter to one symbol; the S&P 500.
 function type(d) {
   d.date = parse(d.date);
-  d.price = +d.price;
-  if (d.symbol === "S&P 500") return d;
+  d.moisture = +d.moisture;
+  if (d.detector === "1ft") return d;
 }
 
 </script>
