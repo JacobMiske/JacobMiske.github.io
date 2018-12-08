@@ -223,6 +223,16 @@ path {
 		    svg.append("g")
 			.attr("class", "y axis")
 			.call(yAxis);
+		    svg.append("text")             // text label for the x axis
+        		.attr("x", 1265 )
+        		.attr("y",  1000 )
+        		.style("text-anchor", "middle")
+        		.text("Date");
+	            svg.append("text")             // text label for the y axis
+       			.attr("x", 265 )
+        		.attr("y",  240 )
+        		.style("text-anchor", "middle")
+        		.text("Moisture Level");
 
 		});
 
