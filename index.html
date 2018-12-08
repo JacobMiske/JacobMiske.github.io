@@ -200,7 +200,7 @@ path.area {
 
 <script>
 
-var margin = {top: 40, right: 40, bottom: 40, left: 40},
+var margin = {top: 40, right: 40, bottom: 40, left: 240},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -218,7 +218,12 @@ var xAxis = d3.svg.axis()
 
 var yAxis = d3.svg.axis()
     .scale(y)
-    .ticks(4)
+    .ticks(8)
+    .orient("left");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .ticks(8)
     .orient("right");
 
 var area = d3.svg.area()
@@ -356,11 +361,6 @@ function type(d) {
 </footer>
 
 </body>
-
-
-
-
-
 
 
 
