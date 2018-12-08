@@ -162,7 +162,7 @@ svg.append("clipPath")
     .attr("width", width)
     .attr("height", height);
 
-d3.csv("readme.csv", type, function(error, data) {
+d3.csv("readmeneudrop.csv", type, function(error, data) {
   if (error) throw error;
 
   // Compute the minimum and maximum date, and the maximum price.
@@ -227,6 +227,7 @@ function type(d) {
 		<p></p>
 		
 	</header>
+	<img src="NeuDrop.png" alt="NeuDrop Logo" style="width:500px;height:600px;"> 
 	<article>
 		<header>
 			
@@ -256,7 +257,7 @@ function type(d) {
 			</header>
 			<p>Real Time Soil Water Content </p>
 			<p>See graph.</p>
-			 <img src="ExampleWebsitePlot.png" alt="NeuDrop Moisture Plot" style="width:500px;height:600px;"> 
+			 
 		</section>
 		<section id="sectionC">
 			<header>
