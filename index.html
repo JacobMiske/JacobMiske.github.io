@@ -217,7 +217,7 @@ d3.csv("readme.csv", type, function(error, data) {
 function type(d) {
   d.date = parse(d.date);
   d.price = +d.price;
-  if (d.symbol === "1ft") return d;
+  if (d.symbol === "S&P 500") return d;
 }
 
 </script>
