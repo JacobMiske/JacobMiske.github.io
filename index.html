@@ -123,7 +123,7 @@ path {
 	
 	
 	<header>
-		<section>
+		
 		<script>
 		// Set the dimensions of the canvas / graph
 		var margin = {top: 30, right: 20, bottom: 70, left: 50},
@@ -203,12 +203,18 @@ path {
 			.style("font-size", "34px")
         		.style("text-anchor", "middle")
         		.text("Moisture Level");
+		    svg.append("text")             // text label for the y axis
+       			.attr("x", 165 )
+        		.attr("y",  80 )
+			.style("font-size", "24px")
+        		.style("text-anchor", "middle")
+        		.text("Tenth of a percent");
 		});
 		</script>
 		</section>
 	</header>
 	<header>
-		<h1><img src="NeuDropLogoTealBackgroundWhiteText.png" alt="NeuDrop Logo" style="width:500px;height:600px;"> </h1>
+		<h1><img src="NeuDropLogoTealBackgroundWhiteText.png" alt="NeuDrop Logo" style="width:250px;height:300px;"> </h1>
 		<p></p>
 	</header>
 	<article>
@@ -227,19 +233,20 @@ path {
 				<h3>Simulation</h3>
 				<p></p>
 			</header>
+			
 		</section>
 		<section>
 			<p>We used Geant 4 , a gold standard toolkit in <br> simulating paticle trals</p>
 			<p>Sample geometry similar to soil conditions <br> was tested for a variety depths<br>
 			and soil characteristics</p>
-		</section>
+			
+		</section
+		
 		<section id="sectionB">
 			<header>
 				<h3>Neutron Count</h3>
 				<p></p>
 			</header>
-		</section>
-		<section>
 			<p>Real time soil water content at multiple depths are measured and updated. The measured depths are 0.25, 0.5m, 0.75m, and 1.00m.
 				Horizontal axis units show the days and vertical axis units show water content (in percent water).
 			</p>
@@ -251,8 +258,7 @@ path {
 				<h3>Solar Activity</h3>
 				<p></p>
 			</header>
-		</section>
-		<section>
+			
 			<div class=”media”>
 				<img src="Solar.png" alt="Solar Correction" style="width:500px;height:600px;">
 			</div>
