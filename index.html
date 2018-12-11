@@ -132,7 +132,7 @@ path {
 		    width = 1650 - margin.left - margin.right,
 		    height = 800 - margin.top - margin.bottom;
 		// Parse the date / time
-		var parseDate = d3.time.format("%b %d %Y").parse;
+		var parseDate = d3.time.format("%b %d").parse;
 		// Set the ranges
 		var x = d3.time.scale().range([0, width]);
 		var y = d3.scale.linear().range([height, 0]);
