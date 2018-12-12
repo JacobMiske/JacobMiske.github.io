@@ -177,8 +177,8 @@ path {
 			    .attr("d", priceline(d.values));
 			// Add the Legend
 			svg.append("text")
-			    .attr("x", (legendSpace/2)+i*50) // spacing
-			    .attr("y", (margin.bottom/2)+ 5)
+			    .attr("x", (legendSpace/2)+i*55) // spacing
+			    .attr("y", 80+(margin.bottom/2)+ 5)
 			    .attr("class", "legend")    // style the legend
 			    .style("fill", function() { // dynamic colours
 				return d.color = color(d.key); })
