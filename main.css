@@ -5,6 +5,6 @@ tab_wrap{width:500px; margin:80px auto;}
 .panel_area{background:#fff;}
 .tab_panel{width:100%; padding:80px 0; display:none;}
 .tab_panel p{font-size:14px; letter-spacing:1px; text-align:center;}
- 
+
 .tab_area label.active{background:#fff; color:#000;}
 .tab_panel.active{display:block;}

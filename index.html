@@ -5,17 +5,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css">
-	
+
 * {
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;   
+    font-family: Arial, Helvetica, sans-serif;
  }
 /* Style the header */
 header {
     background-color: teal;
-    padding: 30px;
+    padding: 50px;
     text-align: center;
     font-size: 35px;
     color: black;
@@ -94,7 +94,7 @@ path.area {
   stroke-width: 2px;
 }
 body { font: 12px Arial;}
-path { 
+path {
     stroke: steelblue;
     stroke-width: 2;
     fill: none;
@@ -115,16 +115,16 @@ path {
 
 </head>
 
-	
-	
-	
-	
-	
+
+
+
+
+
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
 
-	
-	
+
+
 	<header>
 		<script>
 		// Set the dimensions of the canvas / graph
@@ -142,7 +142,7 @@ path {
 		var yAxis = d3.svg.axis().scale(y)
 		    .orient("left").ticks(10);
 		// Define the line
-		var priceline = d3.svg.line()	
+		var priceline = d3.svg.line()
 		    .x(function(d) { return x(d.date); })
 		    .y(function(d) { return y(d.price); });
 		// Adds the svg canvas
@@ -151,7 +151,7 @@ path {
 			.attr("width", width + margin.left + margin.right)
 			.attr("height", height + margin.top + margin.bottom)
 		    .append("g")
-			.attr("transform", 
+			.attr("transform",
 			      "translate(" + margin.left + "," + margin.top + ")");
 		// Get the data
 		d3.csv("stocks4.csv", function(error, data) {
@@ -169,7 +169,7 @@ path {
 		    var color = d3.scale.category10();   // set the colour scale
 		    legendSpace = width/dataNest.length; // spacing for legend
 		    // Loop through each symbol / key
-		    dataNest.forEach(function(d,i) { 
+		    dataNest.forEach(function(d,i) {
 			svg.append("path")
 			    .attr("class", "line")
 			    .style("stroke", function() { // Add the colours dynamically
@@ -216,25 +216,29 @@ path {
 		</script>
 		</section>
 	</header>
+
 	<header>
 		<h1><img src="NeuDropLogoTealBackgroundWhiteText.png" alt="NeuDrop Logo" style="width:250px;height:300px;"> </h1>
 		<p></p>
 	</header>
-	
+
 	<article>
-		
-		<section id="sectionA">
+		<section id="sectionA" align="center">
 			<header>
-				<h3>Future Work</h3>
-				<p></p>
+				<h2> Future Work </h2>
 			</header>
+		</section>
+		<section>
 			<p>
 				Coming soon
 			</p>
 		</section>
-		
-	</article> 
-	
+	</article>
+	<section id="sectionB" align="center">
+		<header>
+			<h1> Team Members <h1>
+		</header>
+	</section>
  <footer>
 
   <p>NeuDrop 2018; MIT NSE 22.033, Support from Silverside Detector, MIT NSE, and MIT NRL</p>
