@@ -9,9 +9,11 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, Garamond, sans-serif;
  }
+
 /* Style the header */
 header {
     background-color: teal;
@@ -20,6 +22,7 @@ header {
     font-size: 35px;
     color: black;
 }
+
 /* Container for flexboxes */
 section {
     display: -webkit-flex;
@@ -27,6 +30,7 @@ section {
     display: flex;
     font-family: Arial, Garamond, sans-serif;
 }
+
 /* Style the navigation menu */
 nav {
     -webkit-flex: 1;
@@ -35,11 +39,13 @@ nav {
     background: #ccc;
     padding: 20px;
 }
+
 /* Style the list inside the menu */
 nav ul {
     list-style-type: none;
     padding: 0;
 }
+
 /* Style the content */
 article {
     -webkit-flex: 3;
@@ -48,6 +54,7 @@ article {
     background-color: #f1f1f1;
     padding: 10px;
 }
+
 /* Style the footer */
 footer {
     background-color: #777;
@@ -56,6 +63,7 @@ footer {
     color: black;
     font-family: Arial, Times, sans-serif;
 }
+
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 800px) {
     section {
@@ -63,12 +71,14 @@ footer {
       flex-direction: column;
     }
 }
+
 svg {
   font-family: "Helvetica Neue", Helvetica;
 }
 svg {
-  font: 17px sans-serif;
+  font: 20px sans-serif;
 }
+
 path.line {
   fill: none;
   stroke: #666;
@@ -96,7 +106,9 @@ path.area {
   stroke: #000;
   stroke-width: 2px;
 }
-body { font: 12px Arial;}
+
+
+body { font: 12px Garamond;}
 path {
     stroke: steelblue;
     stroke-width: 2;
@@ -114,7 +126,9 @@ path {
     font-weight: bold;
     text-anchor: middle;
 }
-body { font: 12px Arial;}
+
+/*
+body { font: 12px Garamond;}
 path {
     stroke: steelblue;
     stroke-width: 2;
@@ -132,6 +146,7 @@ path {
     font-weight: bold;
     text-anchor: middle;
 }
+*/
 
 </style>
 
@@ -244,7 +259,7 @@ path {
 		<p></p>
 	</header>
 
-	<section id="sectionA" style="width:250px;height:300px;">
+	<section id="sectionA" style="width:700px;height:300px;">
 		<header>
 			<h2> Future Work </h2>
 		</header>
@@ -255,7 +270,7 @@ path {
 		</p>
 	</section>
 
-	<section id="sectionB" style="width:250px;height:300px;">
+	<section id="sectionB" style="width:700px;height:300px;">
 		<header>
 			<h1> Team Members <h1>
 		</header>
