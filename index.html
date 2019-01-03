@@ -9,9 +9,11 @@
 * {
     box-sizing: border-box;
 }
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Garamond, sans-serif;
  }
+
 /* Style the header */
 header {
     background-color: teal;
@@ -20,11 +22,15 @@ header {
     font-size: 35px;
     color: black;
 }
+
 /* Container for flexboxes */
 section {
     display: -webkit-flex;
+    text-align: center;
     display: flex;
+    font-family: Arial, Garamond, sans-serif;
 }
+
 /* Style the navigation menu */
 nav {
     -webkit-flex: 1;
@@ -33,11 +39,13 @@ nav {
     background: #ccc;
     padding: 20px;
 }
+
 /* Style the list inside the menu */
 nav ul {
     list-style-type: none;
     padding: 0;
 }
+
 /* Style the content */
 article {
     -webkit-flex: 3;
@@ -46,26 +54,31 @@ article {
     background-color: #f1f1f1;
     padding: 10px;
 }
+
 /* Style the footer */
 footer {
     background-color: #777;
     padding: 10px;
     text-align: center;
     color: black;
+    font-family: Arial, Times, sans-serif;
 }
+
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     section {
       -webkit-flex-direction: column;
       flex-direction: column;
     }
 }
+
 svg {
   font-family: "Helvetica Neue", Helvetica;
 }
 svg {
-  font: 17px sans-serif;
+  font: 20px sans-serif;
 }
+
 path.line {
   fill: none;
   stroke: #666;
@@ -93,7 +106,9 @@ path.area {
   stroke: #000;
   stroke-width: 2px;
 }
-body { font: 12px Arial;}
+
+
+body { font: 12px Garamond;}
 path {
     stroke: steelblue;
     stroke-width: 2;
@@ -111,6 +126,28 @@ path {
     font-weight: bold;
     text-anchor: middle;
 }
+
+/*
+body { font: 12px Garamond;}
+path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+.legend {
+    font-size: 22px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+*/
+
 </style>
 
 </head>
@@ -222,23 +259,39 @@ path {
 		<p></p>
 	</header>
 
-	<article>
-		<section id="sectionA" align="center">
-			<header>
-				<h2> Future Work </h2>
-			</header>
-		</section>
-		<section>
-			<p>
-				Coming soon
-			</p>
-		</section>
-	</article>
-	<section id="sectionB" align="center">
+	<section id="sectionA" style="width:700px;height:300px;">
+		<header>
+			<h2> Future Work </h2>
+		</header>
+	</section>
+	<section>
+		<p>
+			Coming soon
+		</p>
+	</section>
+
+	<section id="sectionB" style="width:700px;height:300px;">
 		<header>
 			<h1> Team Members <h1>
 		</header>
-	</section>
+  </section>
+  <section>
+    <p>
+      Jacob Miske
+    </p>
+    <p>
+       Ben Sheffer
+    </p>
+    <p>
+       Monica Pham
+    </p>
+    <p>
+       Go Hashimoto
+    </p>
+  </section>
+
+
+
  <footer>
 
   <p>NeuDrop 2018; MIT NSE 22.033, Support from Silverside Detector, MIT NSE, and MIT NRL</p>
