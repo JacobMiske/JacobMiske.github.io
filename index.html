@@ -25,6 +25,7 @@ section {
     display: -webkit-flex;
     text-align: center;
     display: flex;
+    font-family: Arial, Garamond, sans-serif;
 }
 /* Style the navigation menu */
 nav {
@@ -53,9 +54,10 @@ footer {
     padding: 10px;
     text-align: center;
     color: black;
+    font-family: Arial, Times, sans-serif;
 }
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     section {
       -webkit-flex-direction: column;
       flex-direction: column;
@@ -112,6 +114,25 @@ path {
     font-weight: bold;
     text-anchor: middle;
 }
+body { font: 12px Arial;}
+path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+.legend {
+    font-size: 22px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+
 </style>
 
 </head>
@@ -245,7 +266,7 @@ path {
     </p>
     <p>
        Ben Sheffer
-    </>
+    </p>
     <p>
        Monica Pham
     </p>
