@@ -157,8 +157,6 @@ path {
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
 
-
-
 	<header>
 		<script>
 		// Set the dimensions of the canvas / graph
@@ -188,7 +186,7 @@ path {
 			.attr("transform",
 			      "translate(" + margin.left + "," + margin.top + ")");
 		// Get the data
-		d3.csv("stocks4.csv", function(error, data) {
+		d3.csv("/assets/stocks4.csv", function(error, data) {
 		    data.forEach(function(d) {
 				d.date = parseDate(d.date);
 				d.price = +d.price;
