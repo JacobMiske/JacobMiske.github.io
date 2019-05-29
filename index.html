@@ -260,24 +260,49 @@ path {
 		<header>
 			<h2> Low Cost Neutron Detection </h2>
 		</header>
+    <p>
+      The study of neutron transport has been explored deeply since the early 20th century. Since then, our understanding of the neutron radiation that results from upper atmospheric cosmic radiation has greatly appreciated. Today, there is work being done to further understand what this cosmic neutron radiation is doing once it impacts the earth. This past Fall, the group developed a low cost neutron detector (LCND) which was demonstrated as a soil moisture detector by inferring properties of soil moderation to fast neutron thermalization. The fundamental science behind the application was based on research showing how cosmic neutrons diffuse deferentially in soil depending on the moisture content. This is in part related to the cross section of the average atomic density of various elements in soil.
+    </p>
+    <p>
+      The LCND involved team experience from a wide range of backgrounds. While all students were in a nuclear science course, group members had experience in mechanical, electrical, computational, and systems engineering domains. Due to the short time-span of about two and a half months, many technical details were processed in short order.
+      The main use case for the low cost neutron detector for the LCND design was chosen to be soil moisture. This was found to be an optimal use case to analyse as cosmic background neutrons do not need radiation protection or special measures to permit. These source neutrons are naturally present everywhere.
+      In order to understand our audience, we asked questions to current farmers about how they use soil moisture measurement tools. In addition, the current market for such devices was researched to see how our device may scale.
+    </p>
 	</section>
 
   <section id="sectionB">
 		<header>
 			<h2> Methods and Support </h2>
 		</header>
+    <p>
+      Mechanical drawings and CAD were generated iteratively and used some off-the-shelf parts for quick manufacturing of the prototypes. The electronic components and schematics were sourced partially from previous projects taken on by team members and re-utilized in the project circuit board generated from EAGLE software. A PIC32 microcontroller unit was chosen to be the microcontroller of the detector and was written in C. Being able to quickly re-utilize various electronic control methods on the PIC32 allowed for optimizing detection functions iteratively.
+      The whole device and detector mechanism was put under scrutiny with the Grasshopper computational simulation engine. The Grasshopper engine runs Geant4, a particle physics toolkit for programmers. This was used for the simulation of neutron transport through our test case, involving soil, lithium-6, and our detector medium.
+    </p>
+    <p>
+      Throughout the process of producing our prototype device, we had great support and technical advice from Silverside Detectors Inc. (sside.co). Silverside Detectors produces neutron detectors for use in security fields where the detection of fissile materials may be important. Some materials used in our design and testing were supplied from both Silverside and the MIT Nuclear Reactor Laboratory. This project may not have accomplished all of its goals without technical advice from Andrew and Anne from Silverside.
+    </p>
 	</section>
 
   <section id="sectionC">
     <header>
       <h2> Results and Discussion </h2>
     </header>
+    <p>
+      The feasibility of our detector concept rests on the validity and reliability of our testing. Through a wide range of rigorous lab tests with our detector prototype and simulations, we are confident that our design is capable of detecting a mixed energy neutron flux from standardized, low intensity sources to about 14\% intrinsic efficiency. While this is palpably lower than other modern neutron detectors, the LCND is easily parallelizable. Multiple units can be used together and the detection media, a modified photocell, can be increased for each individual LCND to increase intrinsic efficiency linearly.
+    </p>
+    <p>
+      The value of a low cost neutron detector similar similar efficiency to other traditional models has the ability to bring methods of neutron detection into new fields with constituent relations to the diffusion and thermalization of neutron radiation which were previously barred by financial constraints. Similar projects into the research of neutron irradiation on soil moisture has been done as early as the 1950's. In other fields, neutron detection has been utilized in assessing snowpack measurement, neutron activation analysis, and crystallography.
+    </p>
   </section>
 
   <section id="sectionD">
     <header>
       <h2> Future Work </h2>
     </header>
+    <p>
+      Soil moisture measurement is currently done through capacitive sensors and tensiometers. These sensors provide point measurement of soil water content. A neutron detection mechanism for soil moisture measurement could reduce the need to replace sensors periodically and result in measurements which are more representative of volumetric soil moisture values. The concept behind the low cost neutron detector has the potential to drastically lower costs of commercial grade neutron detection methods such as the use of fission chambers and compensated ion chambers. This would lower operational cost barriers for increased reliance on any neutron detection system used in a nuclear safety system.
+      Further work and support is needed to test the concept more rigorously and prove certain levels of uncertainty in tests and design. The initial prototypes were designed between MIT campus labs, Silverside Detectors, and student dormitory rooms.
+    </p>
   </section>
 
 	<section id="sectionE">
