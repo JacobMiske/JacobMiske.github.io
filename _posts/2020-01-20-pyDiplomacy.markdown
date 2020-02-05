@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Repos"
+title:  "pyDiplomacy"
 date:   2020-01-20 00:10:30 -0800
 categories: repos
 ---
