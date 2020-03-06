@@ -1,12 +1,12 @@
 # Site Settings
-title: J. Miske Content Management Site
+title: Jekyll CMS
 email: jacobmiske@gmail.com
 description: >
-  Getting CMS started with Jekyll.
+  CMS started with Jekyll.
 baseurl: ""
-url: "http://jacobmiske.github.io"
+url: "http://localhost:4000"
 twitter_username: SirMiske
-github_username:  JacobMiske
+github_username:  Jacob Miske
 # Build Settings
 sass:
   sass_dir: _sass
