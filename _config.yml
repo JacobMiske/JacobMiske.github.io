@@ -11,5 +11,10 @@ github_username:  JacobMiske
 sass:
   sass_dir: _sass
 include: ['_pages']
+markdown: kramdown
 kramdown:
   input: GFM
+# Collections
+collections:
+  portfolio:
+    output: true

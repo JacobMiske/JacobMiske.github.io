@@ -1,13 +1,14 @@
-# J Miske CMS Site
+# J. Miske CMS Site
 
-Getting started with Jekyll.
+Getting started with Jekyll. Using to manage my content.
 
 ## Purpose
 
-- Learn about static site generators
-- Install Ruby and Jekyll
-- Create a custom website running on Jekyll and Sass
-- Deploy a Jekyll site to GitHub pages
+- Record progress on learning, take notes.
+- Learn about static site generators.
+- Using Ruby and Jekyll.
+- Create a custom website running on Jekyll and Sass.
+- Deploy a Jekyll site to GitHub pages.
 
 ## Author
 

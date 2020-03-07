@@ -1,16 +1,10 @@
----
-layout: page
-title: JS Reading
-permalink: /jsreading/
----
+I"~<p>Javascript is a functional language.</p>
 
-Javascript is a functional language.
+<h1 id="scope-and-closures">Scope and Closures</h1>
 
-# Scope and Closures
+<p>Kyle Simpson</p>
 
-Kyle Simpson
-
-$$
+<script type="math/tex; mode=display">% <![CDATA[
 \begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
@@ -24,5 +18,5 @@ $$
       \vdots \\
       y_n
     \end{array} \right)
-\end{align*}
-$$
+\end{align*} %]]></script>
+:ET
