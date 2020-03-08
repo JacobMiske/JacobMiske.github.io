@@ -1,0 +1,4 @@
+I"¬<p>Check status of a service.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo service motion status
+</code></pre></div></div>
+:ET
