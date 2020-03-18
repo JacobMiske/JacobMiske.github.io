@@ -38,6 +38,18 @@ Distinct set of activities:
 - Detailed design
 - Coding and debugging
 - Unit testing
+- Integration Testing
+- Integration
+- System Testing
+- Corrective Maintenance
 
+Need to strike a balance between too much red tape and too little. This book focuses
+on the coding and debugging side of the process.
+
+### 1.2: Why is Software Construction Important?
+- Construction is a large part of software development
+- Construction is the central activity in software development
+- With a focus on construction, the individual can improve enormously
+- 
 
 

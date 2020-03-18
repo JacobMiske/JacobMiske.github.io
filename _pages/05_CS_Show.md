@@ -4,6 +4,14 @@ title: CS Show
 permalink: /cs/
 ---
 
+# Goals
+- Gain competency in Microsoft Azure through Fundamentals certification and beyond
+- Gain competency in Amazon Web Services through Associate certification and beyond
+- Prove ability in React JS Front End development
+- Prove knowledge in novice level C++ or C# development
+- Prove awareness and/or knowledge in the realm of product ownership
+- Prove ability in breadth of engineering knowledge surrounding software engineering
+
 ## Certifications
 
 ### Azure
@@ -34,6 +42,9 @@ Tools for use day-to-day with Azure. The Portal (GUI), Powershell and Azure CLI,
 
 Azure marketplace is where you create new resources.
 
+#### Core Cloud Services - Azure Compute Options
+
+
 
 
 ## Amazon Web Services
@@ -60,6 +71,15 @@ connect to EC2. Durable, attachable storage for EC2.
 - HDD types: general purpose and cold
 
 Third option for storage is Amazon EFS (elastic file system). 
+- Multiple EC2 can reach the same EFS.
+- Elastic
+- NFS v4.0
+- Compatible with Linux AMIs
+
+EFS can only attach to one VPC at a time. The most common model is S3. It is implemented as a distributed model. 
+The S3 is eventually consistent across redundancies. S3 standard is cheaper for upload/download, most for access. 
+
+Access through IAM, bucket policy, or IALs. Virtually unlimited. Region scoped. Design for eleven 9's.
 
 ##### 1.1: Choose Reliable Resilient Storage
 
