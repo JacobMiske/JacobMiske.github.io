@@ -4,6 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-Contact content goes here.
+Email me at [jacobmiske@gmail.com](mailto:jacobmiske@gmail.com).
 
-My e-mail is [jacobmiske@gmail.com](mailto:jacobmiske@gmail.com).
+I check it every day or so. 

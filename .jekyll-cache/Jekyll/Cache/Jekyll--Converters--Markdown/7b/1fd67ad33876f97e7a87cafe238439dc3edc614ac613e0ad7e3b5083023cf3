@@ -1,0 +1,163 @@
+I"�!<h4 id="core-cloud-services---azure-architecture-and-service-guarentees">Core Cloud Services - Azure Architecture and Service Guarentees</h4>
+<p>Region is a geographical area with at least one datacenter. When a resource is deployed on Azure, the user 
+chooses the region where the resource is deployed. Exceptions are some services are only available in some 
+regions, such as VM size or storage types. Some global Azure services do not need the user to select a region 
+such as the Azure Active Directory, Traffic Manager, or DNS. Over 54 total regions.</p>
+
+<p>Availability Zones</p>
+
+<p>Each AZ is made up of one or more datacenters with independent systems. If one goes down the other can continue to work.
+Availability zones are connected by fiber. Region pairs are identical resources running in two datacenters in the same
+geography.</p>
+
+<p>SLA: Service Level Agreement</p>
+
+<p>SLA describe Microsoft’s commitment to providing Azure customers with specific performance standards. There are SLAs for
+individual products and services. SLAs specify what happens if a product fails to perform a governing SLA specification.</p>
+
+<p>MONTHLY UPTIME PERCENTAGE and SERVICE CREDIT PERCENTAGE</p>
+
+<p>&lt; 99.9 10; &lt; 99 25; &lt; 95 100</p>
+
+<h4 id="core-cloud-services---manage-services-with-the-azure-portal">Core Cloud Services - Manage services with the Azure portal</h4>
+<p>Tools for use day-to-day with Azure. The Portal (GUI), Powershell and Azure CLI, Cloud Shell, Azure mobile app.</p>
+
+<p>Azure marketplace is where you create new resources.</p>
+
+<h4 id="core-cloud-services---azure-compute-options">Core Cloud Services - Azure Compute Options</h4>
+<p>Only procure what you will use.</p>
+
+<h5 id="essential-azure-compute-concepts">Essential Azure compute concepts</h5>
+<p>Azure compute: a on-demand computing service. Four main techniques; VM, containers, 
+azure app service, and serverless computing.</p>
+<h5 id="explore-azure-vms">Explore Azure VMs</h5>
+<p>Options: total control over OS, ability to run custom software, custom hosting config.
+Use: During test and dev, cloud apps, extend datacenter, disaster recovery.
+Easy to shift operations to the cloud first as opposed to other options.</p>
+
+<p>You can run single VM for testing. Availability set: logical grouping of two or more VM 
+that keep an app running during maintenance.</p>
+
+<p>Azure batch: enables large-scale job scheduling and compute management with scale ability
+ to tens, hundreds, or thousands of VMs. Uses: Start a pool of compute VMs. Install apps and stage
+ data. Run jobs with many tasks. ID failures. Requeues work. Scales down as work completes.</p>
+
+<h5 id="explore-containers-in-azure">Explore Containers in Azure</h5>
+<p>Azure supports Docker containers in Azure Container Instances (ACI) and Azure Kubernetes
+Service (AKS).</p>
+
+<h4 id="explore-azure-app-service">Explore Azure App Service</h4>
+<p>Enables to build and host web apps, background jobs, mobile backends, REST APIs.
+Auto scaling and high availability. Is a PAAS.</p>
+
+<p>Uses: Web apps, API Apps, WebJobs, Mobile Apps.</p>
+
+<h5 id="explore-serverless-computing-in-azure">Explore Serverless Computing in Azure</h5>
+<ol>
+  <li>
+    <p>Abstractions of servers</p>
+  </li>
+  <li>
+    <p>Event-driven scale</p>
+  </li>
+  <li>
+    <p>Micro-billing</p>
+  </li>
+</ol>
+
+<p>Two implementations of serverless compute. Azure functions and Azure logic apps.</p>
+
+<p>Azure functions can execute code in almost any language. Azure logic apps designed in a
+web-based designer and can execute logic triggered by Azure services without any code.</p>
+
+<p>Function vs Logic App</p>
+
+<p>State: Normally stateless, durable functions provide state. VS Stateful</p>
+
+<p>Development: Code-first (imperative) VS designer-first (declaritive)</p>
+
+<p>Connectivity: Dozen built-in binding types, write code for customs VS large collection of connectors,</p>
+
+<h2 id="azure-data-storage-options">Azure Data Storage Options</h2>
+<p>How Azure can meet business storage needs:</p>
+
+<h3 id="azure-sql-database">Azure SQL Database:</h3>
+<p>A relational DAAS based on the latest stable version of the Microsoft SQL Server database engine.</p>
+
+<p>You can migrate existing SQL Server databases with minimal downtime using the Azure Database Migration service.</p>
+
+<p>The service uses the Microsoft Data Migration Assistant, it generates assessment reports that provide recommendations to
+help guide the user through any required changes prior to a migration. Once you assess and perform any 
+remediation required, you’re ready to begin the mibration process. The Azure Database Migration Service performs all of
+the migration process.</p>
+
+<h3 id="azure-cosmos-db">Azure Cosmos DB:</h3>
+<p>A globally distributed database service. It supports schema-less data that lets you build highly 
+responsive and Always On applications to support constantly changing data. You can use this feature to store data that 
+is updated and maintained by users around the world.</p>
+
+<h3 id="azure-blob-storage">Azure Blob Storage:</h3>
+<p>An unstructured storage. Meaning there are no restrictions on the kinds of data it can hold. Blobs 
+are highly scalable and apps work with blobs in much the same way as they would work with files on a disk, such as
+reading and writing data. Blob Storage can manage thousands of simultaneous uploads, massive amount of video data,
+constantly growing log files, and can be reached from anywhere with an internet connection.</p>
+
+<h3 id="azure-data-lake-storage">Azure Data Lake Storage:</h3>
+
+<p>The Data Lake feature allows you to perform analytics on your data usage and prepare reports. Data Lake is a large
+repository that stores both structured and unstructued data.</p>
+
+<p>Azure Data Lake Storage combines the scalability and cost benefits of object storage with the reliability and 
+performance of the Big Data file system capabilities. The following illustration shows how Azure Data Lake stores all 
+your business data and makes it available for analysis.</p>
+
+<p>Azure Files: Azure Files gives fully managed file shares in the cloud accessible via the industry standard Server 
+Message Block (SMB) protocal. Azure file shares can be mounted by cloud or on-premises deployments of Windows, Linux,
+and macOS.</p>
+
+<h3 id="azure-queue">Azure Queue:</h3>
+
+<p>Azure Queue storage is a service for storing large numbers of messages that can be accessed from anywhere in
+the world. Queue storage can be used to help build flexible applications and separate functions for better
+durability across large workloads.</p>
+
+<ul>
+  <li>Create a backlog of work and to pass messages between different Azure web servers.</li>
+  <li>Distribute load among different web servers/infrastructure and to manage bursts of traffic.</li>
+  <li>Build resislience against component failure when multiple users access your data at the same time.</li>
+</ul>
+
+<h3 id="disk-storage">Disk Storage</h3>
+<p>Provides disks for VM, apps, and other services to access and use as they need. Variety of SSH and HDDs options
+to choose from.</p>
+
+<p>Storage Tiers:</p>
+
+<p>Hot storage tier, Cold storage tier, and Archive storage tier.</p>
+
+<p>Encryption and Replication:</p>
+
+<p>Azure Storage Service Encryption (SSE) and Client-side encryption.</p>
+
+<h2 id="azure-networking-options">Azure Networking Options</h2>
+<ul>
+  <li>How an Azure VPM provides secure network comms among resources such as VMs and other networks.</li>
+  <li>What high availability and resiliency mean and how Azure Load Balancer can increase resiliency within a single 
+geographic region.</li>
+  <li>What latency is and how Traffic Manager helps reduce network latency and provides resiliency across geo regions.</li>
+</ul>
+
+<p>There are several strategies employed by software architects and designers to make these complex systems easier to 
+build, manage, and maintain. Let’s look at a few of them, starting with loosely coupled architectures.</p>
+
+<p>An N-tier arch. is loosely architected. The web tier provides the web interface to users on the browser.</p>
+
+<p>The app tier runs business logic (user#1023 clicked here and there, CRUD).</p>
+
+<p>The data tier includes DB and other storage that hold product info and customer orders.</p>
+
+<h3 id="scale-with-azure-load-balancer">Scale with Azure Load Balancer</h3>
+<p>If the traffic is a HTTP, a potentially better option is to use Azure Application Gateway. This tool is
+a load balancer designed for web applications. It uses Azure Load Balancer at the transport level (TCP) 
+and applies sophisticated URL based routing rules to support advanced scenarios.</p>
+:ET

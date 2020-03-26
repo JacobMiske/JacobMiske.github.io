@@ -38,10 +38,10 @@ a:hover {
 }
 header {
 	background: $header;
-	padding: 0px 15px;
+	padding: 15px 15px;
 	text-align: center;
 	margin: 50px 0 0;
-	height: 50vh;
+	height: 28vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -55,6 +55,7 @@ time {
 	color: #898989;
 }
 .container {
+	height: 0.5rem;
 	max-width: $content-width;
 	margin: 0 auto;
 }

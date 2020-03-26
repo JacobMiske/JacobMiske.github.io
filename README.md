@@ -2,6 +2,12 @@
 
 Getting started with Jekyll. Using to manage my content.
 
+## Getting Started
+1. Serve the site with Jekyll
+```shell script
+$ bundle exec jekyll serve
+```
+
 ## Purpose
 
 - Record progress on learning, take notes.

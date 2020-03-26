@@ -4,7 +4,10 @@ title: About
 permalink: /about/
 ---
 
-About content goes here.
+This website is a content management system using the Jekyll framework.
 
-* A list item
-* Another list item
+### Purpose
+* Manage my notes
+* Provide an education resource
+* Share knowledge with others
+* Learn more of the Ruby language

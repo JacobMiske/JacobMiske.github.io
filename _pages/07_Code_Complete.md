@@ -50,6 +50,24 @@ on the coding and debugging side of the process.
 - Construction is a large part of software development
 - Construction is the central activity in software development
 - With a focus on construction, the individual can improve enormously
-- 
+- Construction's product, source code, is only accurate description of the software.
+- Construction is guaranteed to be done.
+
+### 1.3: How to Read This Book
+Book meant to be read either cover to cover or by topic.
+
+Specific programming tips on Chapter 6. 
+
+If not sure where to start, go to 3.2 (determining kind of software).
+
+## Chapter 2: Metaphors for a Richer Understanding of Software Dev.
+Heuristics in design. Computer science has some of the most colorful language of any field.
+
+
+### 2.1: The Importance of Metaphors
+Developments arise out of analogies. By comparing the complex to the known, we 
+can understand insights of the less-familiar topic. This use of metaphor
+is called modeling.
+
 
 
