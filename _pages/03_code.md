@@ -1,8 +1,14 @@
 ---
 layout: page
-title: CS Show
+title: Code; Things related to computer science
 permalink: /cs/
 ---
+
+# Table of Contents
+<a href="/jsreading/">JS Readings</a>
+
+<a href="/codecomplete/">Code Complete</a>
+
 
 # Goals
 - Gain competency in Microsoft Azure through Fundamentals certification and beyond
