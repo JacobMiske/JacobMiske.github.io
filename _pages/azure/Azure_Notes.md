@@ -156,3 +156,38 @@ The data tier includes DB and other storage that hold product info and customer 
 If the traffic is a HTTP, a potentially better option is to use Azure Application Gateway. This tool is
 a load balancer designed for web applications. It uses Azure Load Balancer at the transport level (TCP) 
 and applies sophisticated URL based routing rules to support advanced scenarios.
+
+## Security, Responsibility, and Trust in Azure
+Every system needs to be built with security in mind. Azure Event Hubs allow you to receive and process millions of 
+events in real-time data each second via dynamic data pipelines. Event hubs also integrates seamlessly with other Azure
+services.
+
+There is a security advantage in using the cloud; assuming the cloud is well secured internally.
+
+A good place to check for Azure solutions is the Azure Security Center.
+
+#### Identity and Access
+Two fundamental concepts need to be differentiated when talking about identity and access control. 
+
+- Authentication: is the process of establishing the identity of a person or service looking to access a resource. It
+involves the act of challenging a party for legitimate credentials, and provides the basis for creating a security 
+principle for IAM use. It establishes if they are who they say they are. (AuthN)
+
+- Authorization: is the process of establishing what level of access an authenticated person or service has. It specifies
+what data they're allowed to access and what they can do with it. (AuthZ)
+
+#### Encryption
+
+Encryption is the process of making data unreadable and unusable to unauthorized users. To use or read the encrypted 
+data, it must be decrypted, which requires use of a key. There are two top-level types of encryption. Symmetric and 
+asymmetric.
+
+- Symmetric encryption: Uses the same key to encrypt and decrypt the data. 
+
+- Asymmetric encryption: Uses a public key and a private key. Useds for things like Transport Layer Security (TLS)
+which is used online (HTTPS) and data signing.
+
+#### Protect Your Network
+
+Internet protection: use a firewall, a service that grants access based on the IP address of the requests. 
+

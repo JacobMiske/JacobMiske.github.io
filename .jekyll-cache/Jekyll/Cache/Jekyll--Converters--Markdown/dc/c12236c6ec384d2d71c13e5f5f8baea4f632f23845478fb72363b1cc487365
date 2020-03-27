@@ -1,4 +1,4 @@
-I"£!<h4 id="core-cloud-services---azure-architecture-and-service-guarentees">Core Cloud Services - Azure Architecture and Service Guarentees</h4>
+I"Ÿ&<h4 id="core-cloud-services---azure-architecture-and-service-guarentees">Core Cloud Services - Azure Architecture and Service Guarentees</h4>
 <p>Region is a geographical area with at least one datacenter. When a resource is deployed on Azure, the user 
 chooses the region where the resource is deployed. Exceptions are some services are only available in some 
 regions, such as VM size or storage types. Some global Azure services do not need the user to select a region 
@@ -160,4 +160,28 @@ build, manage, and maintain. Letâ€™s look at a few of them, starting with loosel
 <p>If the traffic is a HTTP, a potentially better option is to use Azure Application Gateway. This tool is
 a load balancer designed for web applications. It uses Azure Load Balancer at the transport level (TCP) 
 and applies sophisticated URL based routing rules to support advanced scenarios.</p>
+
+<h2 id="security-responsibility-and-trust-in-azure">Security, Responsibility, and Trust in Azure</h2>
+<p>Every system needs to be built with security in mind. Azure Event Hubs allow you to receive and process millions of 
+events in real-time data each second via dynamic data pipelines. Event hubs also integrates seamlessly with other Azure
+services.</p>
+
+<p>There is a security advantage in using the cloud; assuming the cloud is well secured internally.</p>
+
+<p>A good place to check for Azure solutions is the Azure Security Center.</p>
+
+<h4 id="identity-and-access">Identity and Access</h4>
+<p>Two fundamental concepts need to be differentiated when talking about identity and access control.</p>
+
+<ul>
+  <li>
+    <p>Authentication: is the process of establishing the identity of a person or service looking to access a resource. It
+involves the act of challenging a party for legitimate credentials, and provides the basis for creating a security 
+principle for IAM use. It establishes if they are who they say they are. (AuthN)</p>
+  </li>
+  <li>
+    <p>Authorization: is the process of establishing what level of access an authenticated person or service has. It specifies
+what data theyâ€™re allowed to access and what they can do with it. (AuthZ)</p>
+  </li>
+</ul>
 :ET
