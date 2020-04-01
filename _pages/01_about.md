@@ -11,3 +11,12 @@ This website is a content management system using the Jekyll framework.
 * Provide an education resource
 * Share knowledge with others
 * Learn more of the Ruby language
+
+
+### The Internet and Me
+
+Creating this CMS site and the content reminds me of keeping track of own's presence in the world.
+Especially that presence on the internet.
+
+<a href="/mywebsites/">My Websites</a>
+

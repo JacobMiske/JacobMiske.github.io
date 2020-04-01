@@ -69,5 +69,14 @@ Developments arise out of analogies. By comparing the complex to the known, we
 can understand insights of the less-familiar topic. This use of metaphor
 is called modeling.
 
+Kinetic theory of gases was based on a "billiard ball" model. Gas molecules were thought to have 
+mass and to collide elastically, as billiard balls do, and many useful theorems were developed from 
+this model.
 
+Wave theory of light was also developed from exploring similarities between light and sound.
 
+In the 1973 Turing Award lecture, Charles Bachman described the change from the earth centered universe 
+to the sun centered universe and compared it to the computer-centered data structure world to the database 
+centered structured world.
+
+### 2.2: How to Use Metaphors

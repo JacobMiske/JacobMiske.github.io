@@ -4,6 +4,13 @@ title: Energy Physics
 permalink: /energyphysics/
 ---
 
+### Lecture Notes
+
+Lecture 19
+
+<a href="/821L19/">8.21 Lecture 19</a>
+
+
 # Physics of Energy
 ### by: Jaffe and Taylor
 

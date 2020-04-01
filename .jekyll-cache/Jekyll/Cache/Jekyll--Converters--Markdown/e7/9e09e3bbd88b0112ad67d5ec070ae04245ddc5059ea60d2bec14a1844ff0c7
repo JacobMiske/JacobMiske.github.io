@@ -1,0 +1,51 @@
+I"<p>My presence on the internet as much as I can control it.</p>
+
+<h2 id="social-media">Social Media</h2>
+
+<h4 id="facebook">Facebook</h4>
+<p>I have a Facebook account.</p>
+
+<h4 id="linkedin">LinkedIn</h4>
+<p>I have a LinkedIn account.</p>
+
+<h4 id="instagram">Instagram</h4>
+<p>I have an Instagram account.</p>
+
+<h4 id="twitter">Twitter</h4>
+<p>I have a Twitter account.</p>
+
+<p><a href="https://twitter.com/SirMiske">Link to Twitter</a></p>
+
+<h2 id="my-sites">My Sites</h2>
+<p>My sites are those which I own the domain on the DNS.</p>
+
+<h4 id="jacobmiskegithubio">jacobmiske.github.io</h4>
+<p>This site. A Jekyll/Ruby based blog and CMS.</p>
+
+<p>Hosted: Github Pages</p>
+
+<p>Services: Jekyll, Ruby</p>
+
+<h4 id="jacobmiskecom">jacobmiske.com</h4>
+<p>My personnel blog and easy-to-use corner of the web. I use Blogger because it is easy and reliable.
+I don’t want to worry about handling the services involved in this site. I am only interested in the content.</p>
+
+<p>Hosted: Google Domains</p>
+
+<p>Service(s): Blogger</p>
+
+<h4 id="jacobmiskenet">jacobmiske.net</h4>
+<p>I don’t know what to do yet with this site.</p>
+
+<p>Hosted: Route 53 (AWS)</p>
+
+<p>Service(s): Static site S3 hosting (AWS)</p>
+
+<h4 id="worklighttoolscom">worklighttools.com</h4>
+<p>This website is an attempt to learn more about a wide range of web tools. I am trying to roll my own auth, CRUD, APIs, 
+and much more to create an e-commerce site.</p>
+
+<p>Hosted: Route 53 (AWS)</p>
+
+<p>Service(s): Amplify (AWS App Client), Lambda Functions, React (JS Framework)</p>
+:ET

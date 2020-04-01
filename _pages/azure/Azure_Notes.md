@@ -191,3 +191,62 @@ which is used online (HTTPS) and data signing.
 
 Internet protection: use a firewall, a service that grants access based on the IP address of the requests. 
 
+OKR: Objective and Key Result
+
+### Apply and Monitor Infrastructure
+
+Good governance is needed when:
+
+- You have multiple engineering teams working in Azure
+- You have multiple subscriptions in your tenant
+- You have regulatory requirements that must be enforced
+- You want to ensure standards are followed for all IT allocated resources
+
+Define IT compliance with Azure Policy, this azure service used to create, assign, and manage policies. These policies 
+enforce different rules and effects over your resources so that those resources are compliant with corporate standards.
+
+How are Azure Policy and RBAC different? RBAC focuses on user actions at different scopes. You may be added to the 
+contributor role for a resource group, allowing you to make changes ot anything in a resource group. However, Azure 
+Policy focues on resource properties during deployment and for already-existing resources. Azure Policy, unlike RBAC, is
+a default allow and explicit deny system.
+
+Policy definition: expressed what to evaluate and what action to take. For example, you could ensure all public websites
+are secured with HTTPS, prevent certain storage from being created, or force a version of SQL Server to use.
+
+#### Azure Blueprints
+
+Adhering to security and compliance requirements can be lengthy and difficult and time-consuming. To help with audits, 
+traceability, and compliance of deployments, use Azure Blueprint artifacts and tools.
+
+Azure Blueprints is a declarative way to orchestrate the deployment of various resource templates and other artifacts,
+such as:
+
+- Role Assignments
+- Policy Assignments
+- Azure Resource Manager Template
+- Resource groups
+
+Azure blueprints are useful in Azure DevOps scenarios, where blueprints are associated with specific build artifacts
+and release pipelines, they can be tracked more rigorously. 
+
+The process of implementing Azure Blueprints consists of these high-level steps:
+
+- Create an Azure Blueprint
+- Assign the Blueprint
+- Track the blueprint assignments
+
+## Azure Resource Manager
+
+- Azure Portal
+- Azure PowerShell
+- Azure CLI
+- Templates
+- Azure SDKs (.NET or Java)
+
+## Predict Costs and Optimize Spending for Azure
+
+Each meter tracks a particular kind of useage. A meter might track bandwidth usage, number of operations, size, etc.
+
+The term zone is for billing purposes only, and the full term Availability Zone refers to the failure protection that
+Azure provides for datacenters.
+
