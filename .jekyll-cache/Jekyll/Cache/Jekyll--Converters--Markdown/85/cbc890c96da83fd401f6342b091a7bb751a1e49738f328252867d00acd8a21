@@ -1,0 +1,33 @@
+I"V<p>I have decided to break this down by domain.</p>
+<h1 id="from-lindeberges-fe-review-manual">From Lindeberge’s FE Review Manual</h1>
+
+<h3 id="units">Units</h3>
+<p>Example 1.1</p>
+
+<p>Calculate the weight, in lbf, of a 1.0 lbm object in a gravitational field of 27.5 ft/s^2.</p>
+
+<h2>JavaScript Can Validate Input</h2>
+
+<p>Please input a number between 1 and 10:</p>
+
+<p><input id="numb" /></p>
+
+<p><button type="button" onclick="myFunction()">Submit</button></p>
+<p id="demo"></p>
+<script>
+function myFunction() {
+  let x, text;
+  x = document.getElementById("numb").value;
+  if (isNaN(x) || x < 1 || x > 10) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+<script type="math/tex; mode=display">\begin{align*}
+    E_{kin} = \frac{1}{2} mv^2
+\end{align*}</script>
+:ET

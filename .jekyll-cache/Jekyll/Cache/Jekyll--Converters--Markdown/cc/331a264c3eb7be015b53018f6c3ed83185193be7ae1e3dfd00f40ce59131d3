@@ -1,4 +1,4 @@
-I"w2<h4 id="core-cloud-services---azure-architecture-and-service-guarentees">Core Cloud Services - Azure Architecture and Service Guarentees</h4>
+I"É4<h4 id="core-cloud-services---azure-architecture-and-service-guarentees">Core Cloud Services - Azure Architecture and Service Guarentees</h4>
 <p>Region is a geographical area with at least one datacenter. When a resource is deployed on Azure, the user 
 chooses the region where the resource is deployed. Exceptions are some services are only available in some 
 regions, such as VM size or storage types. Some global Azure services do not need the user to select a region 
@@ -254,5 +254,22 @@ and release pipelines, they can be tracked more rigorously.</p>
   <li>Assign the Blueprint</li>
   <li>Track the blueprint assignments</li>
 </ul>
+
+<h2 id="azure-resource-manager">Azure Resource Manager</h2>
+
+<ul>
+  <li>Azure Portal</li>
+  <li>Azure PowerShell</li>
+  <li>Azure CLI</li>
+  <li>Templates</li>
+  <li>Azure SDKs (.NET or Java)</li>
+</ul>
+
+<h2 id="predict-costs-and-optimize-spending-for-azure">Predict Costs and Optimize Spending for Azure</h2>
+
+<p>Each meter tracks a particular kind of useage. A meter might track bandwidth usage, number of operations, size, etc.</p>
+
+<p>The term zone is for billing purposes only, and the full term Availability Zone refers to the failure protection that
+Azure provides for datacenters.</p>
 
 :ET

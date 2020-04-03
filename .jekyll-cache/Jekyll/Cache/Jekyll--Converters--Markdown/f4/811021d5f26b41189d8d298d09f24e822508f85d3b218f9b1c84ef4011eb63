@@ -1,0 +1,62 @@
+I"<p>I have decided to break this down by domain.</p>
+<h2 id="from-lindeberges-fe-review-manual">From Lindeberge’s FE Review Manual</h2>
+
+<h3 id="units">Units</h3>
+<p>Problem 1.1</p>
+
+<p>What is a metric ton?</p>
+
+<ul>
+  <li>A: 200 kg</li>
+  <li>B: 1000 kg</li>
+  <li>C: 2000 kg</li>
+  <li>D: 2 kN</li>
+</ul>
+
+<p>Solution: B, a metric ton (tonne) is 1000kg</p>
+
+<p>Problem 1.2</p>
+
+<p>What is a kip?</p>
+
+<ul>
+  <li>A: 1000 in-lbf (torque)</li>
+  <li>B: 1000 lbm (mass)</li>
+  <li>C: 1000 lbf (force)</li>
+  <li>D: 1000 psi (pressure)</li>
+</ul>
+
+<p>Solution: C, kip is a measure of force</p>
+
+<p>Problem 1.3</p>
+
+<p>What is a the SI unit with units <script type="math/tex">kg m^2/s^2</script></p>
+
+<ul>
+  <li>A: joule</li>
+  <li>B: pascal</li>
+  <li>C: tesla</li>
+  <li>D: watt</li>
+</ul>
+
+<p>Solution: A, KE is measured as 1/2 m v^2, same units</p>
+
+<h2>JavaScript Can Validate Input</h2>
+<p>Please input a number between 1 and 10:</p>
+<p><input id="numb" />
+<button type="button" onclick="myFunction()">Submit</button></p>
+<p id="demo"></p>
+<script>
+function myFunction() {
+  let x, text;
+  x = document.getElementById("numb").value;
+  if (isNaN(x) || x < 1 || x > 10) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+:ET

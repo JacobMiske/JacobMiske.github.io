@@ -5,3 +5,5 @@ permalink: /gre_toc/
 ---
 
 # GRE Notes
+
+<a href="/jsreading/">JS Readings</a>
