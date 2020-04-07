@@ -1,0 +1,85 @@
+I"3<p>I have decided to break this down by domain.</p>
+<h2 id="from-lindeberges-fe-review-manual">From Lindeberge’s FE Review Manual</h2>
+
+<h3 id="units">Units</h3>
+<p>Problem 1.1</p>
+
+<p>What is a metric ton?</p>
+
+<ul>
+  <li>A: 200 kg</li>
+  <li>B: 1000 kg</li>
+  <li>C: 2000 kg</li>
+  <li>D: 2 kN</li>
+</ul>
+
+<p>Solution: B, a metric ton (tonne) is 1000kg</p>
+
+<p>Problem 1.2</p>
+
+<p>What is a kip?</p>
+
+<ul>
+  <li>A: 1000 in-lbf (torque)</li>
+  <li>B: 1000 lbm (mass)</li>
+  <li>C: 1000 lbf (force)</li>
+  <li>D: 1000 psi (pressure)</li>
+</ul>
+
+<p>Solution: C, kip is a measure of force</p>
+
+<p>Problem 1.3</p>
+
+<p>What is a the SI unit with units <script type="math/tex">kg m^2/s^2</script></p>
+
+<ul>
+  <li>A: joule</li>
+  <li>B: pascal</li>
+  <li>C: tesla</li>
+  <li>D: watt</li>
+</ul>
+
+<p>Solution: A, KE is measured as 1/2 m v^2, same units</p>
+
+<h3 id="algebra-and-linear-algebra">Algebra and Linear Algebra</h3>
+<p>Problem 5.1</p>
+
+<p>Which of the following is equal to <script type="math/tex">log_8 50</script>?</p>
+
+<ul>
+  <li>A: 0</li>
+  <li>B: 0.53</li>
+  <li>C: 0.79</li>
+  <li>D: 1.88</li>
+</ul>
+
+<p>Solution: D, <script type="math/tex">log_8 50 = \dfrac{log 50}{log 8}</script></p>
+
+<h2>JavaScript Can Validate Input</h2>
+<p>Which of the following is equal to <script type="math/tex">log_8 50</script>?</p>
+
+<ul>
+  <li>A: 0</li>
+  <li>B: 0.53</li>
+  <li>C: 0.79</li>
+  <li>D: 1.88</li>
+</ul>
+
+<p>The answer is D.</p>
+<p><input id="numb" />
+<button type="button" onclick="resultFunction(inputId = 'numb', correctAns='D')">Submit</button></p>
+<p id="demo"></p>
+<script>
+function resultFunction(inputId, correctAns) {
+  let x, text;
+  x = document.getElementById(inputId).value;
+  if (x === correctAns) {
+    text = "Correct";
+  } else {
+    text = "Incorrect";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+:ET

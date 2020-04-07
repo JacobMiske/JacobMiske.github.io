@@ -3,7 +3,7 @@ title: J. Miske Content Management Site
 email: jacobmiske@gmail.com
 description: >
   Getting CMS started with Jekyll.
-baseurl: ""
+baseurl: "/"
 url: "http://jacobmiske.github.io"
 twitter_username: SirMiske
 github_username:  JacobMiske

@@ -42,24 +42,44 @@ What is a the SI unit with units $$ kg m^2/s^2 $$
 Solution: A, KE is measured as 1/2 m v^2, same units
 
 
+### Algebra and Linear Algebra
+Problem 5.1
+
+Which of the following is equal to $$ log_8 50 $$?
+
+- A: 0
+- B: 0.53
+- C: 0.79
+- D: 1.88
+
+Solution: D, $$ log_8 50 = \dfrac{log 50}{log 8} $$
+
+
 
 
 
 
 
 <h2>JavaScript Can Validate Input</h2>
-<p>Please input a number between 1 and 10:</p>
+Which of the following is equal to $$ log_8 50 $$?
+
+- A: 0
+- B: 0.53
+- C: 0.79
+- D: 1.88
+
+<p>The answer is D.</p>
 <input id="numb">
-<button type="button" onclick="myFunction()">Submit</button>
+<button type="button" onclick="resultFunction(inputId = 'numb', correctAns='D')">Submit</button>
 <p id="demo"></p>
 <script>
-function myFunction() {
+function resultFunction(inputId, correctAns) {
   let x, text;
-  x = document.getElementById("numb").value;
-  if (isNaN(x) || x < 1 || x > 10) {
-    text = "Input not valid";
+  x = document.getElementById(inputId).value;
+  if (x === correctAns) {
+    text = "Correct";
   } else {
-    text = "Input OK";
+    text = "Incorrect";
   }
   document.getElementById("demo").innerHTML = text;
 }

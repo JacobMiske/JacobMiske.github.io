@@ -3,7 +3,7 @@ title: Jekyll CMS
 email: jacobmiske@gmail.com
 description: >
   CMS started with Jekyll.
-baseurl: ""
+baseurl: "/"
 url: "http://localhost:4000"
 twitter_username: SirMiske
 github_username:  Jacob Miske
