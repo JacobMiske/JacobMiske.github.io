@@ -14,6 +14,7 @@ include: ['_pages']
 markdown: kramdown
 kramdown:
   input: GFM
+mathjax: true
 # Collections
 collections:
   portfolio:
