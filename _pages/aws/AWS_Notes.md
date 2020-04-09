@@ -41,13 +41,6 @@ Operating at scale, failure should be treated as a normal operation which is han
 #### Domain 2: Define Performant Solutions
 <a href="/aws_dpa">Design Performant Architectures</a>
 
-24% of exam
-
-##### 2.1: Choose Performant Storage and DBs
-
-##### 2.2: Apply caching to improve preformance
-
-##### 2.3: Design Solutions for Elasticity and Scalability
 
 
 #### Domain 3: Specify Secure Applications and Architectures

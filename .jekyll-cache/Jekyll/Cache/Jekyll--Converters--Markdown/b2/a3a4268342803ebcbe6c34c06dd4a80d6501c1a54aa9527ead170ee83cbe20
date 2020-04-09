@@ -1,4 +1,4 @@
-I"p<h1 id="domain-1-design-resilient-architectures">Domain 1: Design Resilient Architectures</h1>
+I"r<h1 id="domain-1-design-resilient-architectures">Domain 1: Design Resilient Architectures</h1>
 
 <h3 id="question-12">Question 1.2</h3>
 <p>Which of the two following AWS Services facilitates the implementation of loosely coupled architectures?</p>
@@ -87,5 +87,39 @@ RPO: Recovery Point Objective, measured by data lost in time down</p>
 
 <p>Solution: B</p>
 
-<p>#</p>
+<h1 id="question-21">Question 2.1</h1>
+<p>In what ways does S3 object storage differ from block storage and file storage (3).</p>
+
+<ul>
+  <li>A: S3 allows storing an unlimited number of objects</li>
+  <li>B: Objects are immutable</li>
+  <li>C: Object are replicated across AZ</li>
+  <li>D: Objects are replicated across regions</li>
+</ul>
+
+<p>Solution: A,B,C</p>
+
+<h1 id="question-22">Question 2.2</h1>
+<p>Which of the following are features of Amazon EBS? (2)</p>
+
+<ul>
+  <li>A: Data stored on EBS is auto backed up to an AZ</li>
+  <li>B: EBS data is backed up on tape</li>
+  <li>C: EBS volumes can be encrypted</li>
+  <li>D: Data on EBS is lost when the attached instance is stopped</li>
+</ul>
+
+<p>Solution: A,C</p>
+
+<h1 id="question-23">Question 2.3</h1>
+<p>Which RDS database engines support read replica?</p>
+
+<ul>
+  <li>A: Microsoft SQL Server and Oracle</li>
+  <li>B: MySQL, MariaDB, PostgreSQL, and Aurora</li>
+  <li>C: Aurora, Microsoft SQL Server, and Oracle</li>
+  <li>D: MySQL and PostgreSQL</li>
+</ul>
+
+<p>Solution: B</p>
 :ET
