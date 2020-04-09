@@ -2,6 +2,7 @@
 layout: page
 title: FE Manual Chapter 19
 permalink: /fe_ch19_review/
+mathjax: true
 ---
 
 ### Thermal Stress
