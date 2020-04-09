@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body {
-    display: flex;
     margin: 0;
     color: #262626;
     font-family: 'Open Sans', sans-serif;
