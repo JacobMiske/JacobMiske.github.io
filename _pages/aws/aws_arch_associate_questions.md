@@ -81,4 +81,32 @@ RPO: Recovery Point Objective, measured by data lost in time down
 
 Solution: B
 
-# 
+# Question 2.1
+In what ways does S3 object storage differ from block storage and file storage (3).
+
+- A: S3 allows storing an unlimited number of objects
+- B: Objects are immutable
+- C: Object are replicated across AZ
+- D: Objects are replicated across regions
+
+Solution: A,B,C
+
+# Question 2.2
+Which of the following are features of Amazon EBS? (2)
+
+- A: Data stored on EBS is auto backed up to an AZ
+- B: EBS data is backed up on tape
+- C: EBS volumes can be encrypted
+- D: Data on EBS is lost when the attached instance is stopped
+
+Solution: A,C
+
+# Question 2.3
+Which RDS database engines support read replica?
+
+- A: Microsoft SQL Server and Oracle
+- B: MySQL, MariaDB, PostgreSQL, and Aurora
+- C: Aurora, Microsoft SQL Server, and Oracle
+- D: MySQL and PostgreSQL
+
+Solution: B
