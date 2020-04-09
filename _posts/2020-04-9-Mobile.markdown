@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mobile"
-date:   2020-04-10 00:16:20 -0500
+date:   2020-04-9 00:16:20 -0500
 categories: repos
 ---
 Can this site be easy to read in mobile? Probably not
