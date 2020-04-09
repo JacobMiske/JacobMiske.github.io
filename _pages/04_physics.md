@@ -2,6 +2,7 @@
 layout: page
 title: Energy Physics
 permalink: /energyphysics/
+mathjax: true
 ---
 
 ### Lecture Notes
