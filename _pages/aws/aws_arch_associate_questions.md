@@ -110,3 +110,47 @@ Which RDS database engines support read replica?
 - D: MySQL and PostgreSQL
 
 Solution: B
+
+# Question 2.4
+Which of the following are good candidates for caching?
+
+- A: Session state
+- B: Shopping cart
+- C: Product catalog
+- D: Bank account balance
+
+Solution: A,B,C; bank account should be exact and not cached
+
+# Question 2.5
+Which of the following cache engines are supported by Elasticache?
+
+- A: MySQL
+- B: Memcached
+- C: Redis
+- D: Couchbase
+
+Solution: B,C
+
+# Question 2.6
+Thw web tier for an application is running on 6 EC2 instances spread across 2 AZ behind a
+ELB Classic Load Balancer. The data tier is a MySQL db running on an EC2.
+
+What changes will increase availability?
+
+- A: turn on cross zone balancing on the Classic Load Balancer
+- B: Launch the web tier EC2 instances in a Auto Scaling group
+- C: Increase the instance size of the web tier EC2 instances
+- D: Migrate the MySQL DB to a multi-AZ RDS MySQL DB
+- E: Turn on CloudTrail in the AWS account of the app
+
+Solution: B,D; A is little/no effect, C is no effect, E has no impact on availability
+
+# Question 3.1:
+Your AWS Account Admin left the company. The admin has access to the root user and personal IAM admin.
+With these, they generated other IAM users and keys.
+
+Which should be done today?
+
+- A: Change pwd and add MFA to the root user
+- B: Put an IP Restriction on root user logins
+- C: 

@@ -1,4 +1,4 @@
-I"¨<p>24% of exam</p>
+I"ø<p>24% of exam</p>
 
 <h4 id="21-choose-performant-storage-and-dbs">2.1: Choose Performant Storage and DBs</h4>
 <p>EBS volume types: SSD and HDD</p>
@@ -28,6 +28,26 @@ One strongly consistent read/s. Two eventually consistent reads per second. One 
 <p>Data warehouse with redshift, sql interface. Getting aggregate numbers on tables.</p>
 
 <h4 id="22-apply-caching-to-improve-performance">2.2: Apply caching to improve performance</h4>
+<p>Improve without changing logic. Low hanging fruit for improvement.</p>
+
+<p>A CDN like CloudFront can be used to cache data closer to users. (content deliver network)</p>
+
+<p>Non-cached content can be retrieved from an origin.</p>
+
+<p>Caching with Elasticache improves round trip time.</p>
+
+<p>You can use memcached or redis</p>
+
+<p>Memcached is easier but redis gives data types.</p>
 
 <h4 id="23-design-solutions-for-elasticity-and-scalability">2.3: Design Solutions for Elasticity and Scalability</h4>
+<p>EDS</p>
+
+<h5 id="cloudfront">CloudFront</h5>
+<p>Used to serve static or dynamic content. Benefit from dynamic is not through caching. Rides on
+the AWS backbone instead of public servers. Protect private content. Improves with security (WAF).</p>
+
+<p>Autoscaling launches or terminates instances. Can automatically reg new instances with load balancers.</p>
+
+<p>This domain was about Preformant Systems. If data is unstructured, S3 is often the solution.</p>
 :ET

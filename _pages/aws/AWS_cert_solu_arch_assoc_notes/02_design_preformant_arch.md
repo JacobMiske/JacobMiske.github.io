@@ -34,5 +34,25 @@ One strongly consistent read/s. Two eventually consistent reads per second. One 
 Data warehouse with redshift, sql interface. Getting aggregate numbers on tables.
 
 #### 2.2: Apply caching to improve performance
+Improve without changing logic. Low hanging fruit for improvement. 
+
+A CDN like CloudFront can be used to cache data closer to users. (content deliver network)
+
+Non-cached content can be retrieved from an origin.
+
+Caching with Elasticache improves round trip time. 
+
+You can use memcached or redis
+
+Memcached is easier but redis gives data types. 
 
 #### 2.3: Design Solutions for Elasticity and Scalability
+EDS
+
+##### CloudFront
+Used to serve static or dynamic content. Benefit from dynamic is not through caching. Rides on
+the AWS backbone instead of public servers. Protect private content. Improves with security (WAF).
+
+Autoscaling launches or terminates instances. Can automatically reg new instances with load balancers.
+
+This domain was about Preformant Systems. If data is unstructured, S3 is often the solution.

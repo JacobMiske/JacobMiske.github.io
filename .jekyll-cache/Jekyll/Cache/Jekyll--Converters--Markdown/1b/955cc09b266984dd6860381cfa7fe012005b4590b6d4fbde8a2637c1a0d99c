@@ -1,0 +1,17 @@
+I"<p>24% of exam</p>
+
+<p>Shared responsibility model: AWS is responsible for their security in the cloud. AWS is responsibly for the security
+of the cloud itself.</p>
+
+<p>Principle of least privilege: Persons can perform all activities for their specific jobs and no more.1</p>
+
+<p>IAM: Centrally manage user permissions in AWS. Create users, groups, and policies.</p>
+
+<p>IAM integrates with Microsoft Azure Directory and AWS Directory service using SAML identity federation.</p>
+
+<h3 id="domain-31-determine-how-to-secure-application-tiers">Domain 3.1: Determine how to secure application tiers</h3>
+
+<h3 id="determine-how-to-secure-data">Determine how to secure data</h3>
+
+<h3 id="define-the-networking-infrastructure-for-a-vpc-network">Define the networking infrastructure for a VPC network</h3>
+:ET
