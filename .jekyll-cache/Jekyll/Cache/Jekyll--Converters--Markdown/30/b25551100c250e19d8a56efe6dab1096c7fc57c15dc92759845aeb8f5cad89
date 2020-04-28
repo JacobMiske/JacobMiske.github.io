@@ -1,4 +1,4 @@
-I"D<h1 id="physics-of-energy">Physics of Energy</h1>
+I"Å<h1 id="physics-of-energy">Physics of Energy</h1>
 <h3 id="by-jaffe-and-taylor">by: Jaffe and Taylor</h3>
 
 <h2 id="chapter-2-mechanical-energy">Chapter 2: Mechanical Energy</h2>
@@ -76,65 +76,21 @@ this amount, so the thermal energy difference is about 3.7 kJ.</p>
 
 <h2 id="chapter-7-introduction-to-quantum-physics">Chapter 7: Introduction to Quantum Physics</h2>
 
-<p>toc2:</p>
-<ul>
-  <li>title: Group 1
-subfolderitems:
-    <ul>
-      <li>page: Thing 1
-url: /thing1.html</li>
-      <li>page: Thing 2
-url: /thing2.html
-subsubfolderitems:
-        <ul>
-          <li>page: Subthing 1
-url: /subthing1.html</li>
-          <li>page: Subthing 2
-url: /subthing2.html</li>
-        </ul>
-      </li>
-      <li>page: Thing 3
-url: /thing3.html</li>
-    </ul>
-  </li>
-  <li>title: Group 2
-subfolderitems:
-    <ul>
-      <li>page: Piece 1
-url: /piece1.html</li>
-      <li>page: Piece 2
-url: /piece2.html</li>
-      <li>page: Piece 3
-url: /piece3.html
-subsubfolderitems:
-        <ul>
-          <li>page: Subpiece 1
-url: /subpiece1.html</li>
-          <li>page: Subpiece2
-url: /subpiece2.html</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>title: Group 3
-subfolderitems:
-    <ul>
-      <li>page: Widget 1
-url: /widget1.html
-subsubfolderitems:
-        <ul>
-          <li>page: Subwidget 1
-url: /subwidget1.html</li>
-          <li>page: Subwidget 2
-url: /subwidget2.html</li>
-        </ul>
-      </li>
-      <li>page: Widget 2
-url: /widget2.html</li>
-      <li>page: Widget 3
-url: /widget3.html</li>
-    </ul>
-  </li>
-</ul>
+<h2 id="chapter-25-photovoltaic-solar-cells">Chapter 25: Photovoltaic Solar Cells</h2>
+<p>From 2005 to 2020, PV solar usage has doubled every two years or so. In 2016, worldwide
+capacity was about 300 GW, delivered power is about 15% of capacity.</p>
 
+<h2 id="chapter-28-wind-a-highly-valuable-resource">Chapter 28: Wind, A highly valuable resource</h2>
+<p>Of 173000 TW solar energy deposited on Earth, 30% is reflected. The remaining 120000 TW turns to thermal energy.
+Some of this thermal energy causes differences in temperature and pressure gradients which build to form wind.</p>
+
+<p>In 2015, the US had about 74 GW of wind capacity. China had 145 GW of capacity.</p>
+
+<p>Power Density: wind kinetic energy flux.</p>
+
+<script type="math/tex; mode=display">P_{wind} = \dfrac{1}{2} \rho v^2 \times v = \dfrac{1}{2} \rho v^3</script>
+
+<p>For max power to a turbine, consider Betz limit</p>
+
+<script type="math/tex; mode=display">\mathcal{P} \times A = \dfrac{8}{27} (1.17 kg/m^3)(10m/s)^3 (10m^2) \approx 3.5 kW</script>
 :ET

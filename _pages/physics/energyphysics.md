@@ -109,45 +109,26 @@ $$
 
 ## Chapter 7: Introduction to Quantum Physics
 
-toc2:
-  - title: Group 1
-    subfolderitems:
-      - page: Thing 1
-        url: /thing1.html
-      - page: Thing 2
-        url: /thing2.html
-        subsubfolderitems:
-          - page: Subthing 1
-            url: /subthing1.html
-          - page: Subthing 2
-            url: /subthing2.html
-      - page: Thing 3
-        url: /thing3.html
-  - title: Group 2
-    subfolderitems:
-      - page: Piece 1
-        url: /piece1.html
-      - page: Piece 2
-        url: /piece2.html
-      - page: Piece 3
-        url: /piece3.html
-        subsubfolderitems:
-          - page: Subpiece 1
-            url: /subpiece1.html
-          - page: Subpiece2
-            url: /subpiece2.html
-  - title: Group 3
-    subfolderitems:
-      - page: Widget 1
-        url: /widget1.html
-        subsubfolderitems:
-          - page: Subwidget 1
-            url: /subwidget1.html
-          - page: Subwidget 2
-            url: /subwidget2.html
-      - page: Widget 2
-        url: /widget2.html
-      - page: Widget 3
-        url: /widget3.html
+
+## Chapter 25: Photovoltaic Solar Cells
+From 2005 to 2020, PV solar usage has doubled every two years or so. In 2016, worldwide
+capacity was about 300 GW, delivered power is about 15% of capacity.
 
 
+## Chapter 28: Wind, A highly valuable resource
+Of 173000 TW solar energy deposited on Earth, 30% is reflected. The remaining 120000 TW turns to thermal energy.
+Some of this thermal energy causes differences in temperature and pressure gradients which build to form wind.
+
+In 2015, the US had about 74 GW of wind capacity. China had 145 GW of capacity.
+
+Power Density: wind kinetic energy flux.
+
+$$
+P_{wind} = \dfrac{1}{2} \rho v^2 \times v = \dfrac{1}{2} \rho v^3
+$$
+
+For max power to a turbine, consider Betz limit
+
+$$
+\mathcal{P} \times A = \dfrac{8}{27} (1.17 kg/m^3)(10m/s)^3 (10m^2) \approx 3.5 kW
+$$
