@@ -5,6 +5,16 @@ permalink: /physics_toc/
 mathjax: true
 ---
 
+## Mechanics
+
+### Dynamics
+
+Centrifugal
+
+$$
+ F_{centrifugal} = \dfrac{mv^2}{r}
+$$
+
 ## Energy Physics
 
 <a href="/energyphysics/">General Notes</a>

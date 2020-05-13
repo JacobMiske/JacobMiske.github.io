@@ -149,8 +149,15 @@ Solution: B,D; A is little/no effect, C is no effect, E has no impact on availab
 Your AWS Account Admin left the company. The admin has access to the root user and personal IAM admin.
 With these, they generated other IAM users and keys.
 
-Which should be done today?
+Which should be done today? To protect the AWS infrustructure.
 
 - A: Change pwd and add MFA to the root user
 - B: Put an IP Restriction on root user logins
-- C: 
+- C: Rotate keys and change pwds for IAM users
+- D: Delete all users
+- E: Delete admins IAM user
+- F: Relaunch EC2 instances with new rules
+
+Solution: A, C, E; others are not needed or impossible
+
+

@@ -21,3 +21,10 @@ IAM integrates with Microsoft Azure Directory and AWS Directory service using SA
 
 
 ### Define the networking infrastructure for a VPC network
+Virtual private cloud is organized by subnets, set of private IP addresses. Network isolation. Control NAT gateways.
+
+Use subnets to define internet accessibility. Public subnets support inbound/outbound access to the public.
+
+Security groups and Access Control Lists are used to limit access. SGs are stateful. ACLs are stateless.1
+
+Use security groups to control traffic in and out of services.
