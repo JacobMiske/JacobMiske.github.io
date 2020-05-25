@@ -1,8 +1,14 @@
 ---
 layout: page
-title: FE Table of Contents
+title: FE Resources
 permalink: /fe_toc/
 ---
+
+The fundamentals of engineering (FE) exam is held by the
+National Council of Examiners for Engineering and Surveying to
+evaluate engineers and provide certification.
+
+## Resources
 
 ### FE Review Manual
 

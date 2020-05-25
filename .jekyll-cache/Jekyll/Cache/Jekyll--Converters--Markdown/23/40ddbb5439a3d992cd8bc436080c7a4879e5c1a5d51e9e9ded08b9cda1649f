@@ -1,4 +1,4 @@
-I"<p>24% of exam</p>
+I"Ç<p>24% of exam</p>
 
 <p>Shared responsibility model: AWS is responsible for their security in the cloud. AWS is responsibly for the security
 of the cloud itself.</p>
@@ -14,4 +14,11 @@ of the cloud itself.</p>
 <h3 id="determine-how-to-secure-data">Determine how to secure data</h3>
 
 <h3 id="define-the-networking-infrastructure-for-a-vpc-network">Define the networking infrastructure for a VPC network</h3>
+<p>Virtual private cloud is organized by subnets, set of private IP addresses. Network isolation. Control NAT gateways.</p>
+
+<p>Use subnets to define internet accessibility. Public subnets support inbound/outbound access to the public.</p>
+
+<p>Security groups and Access Control Lists are used to limit access. SGs are stateful. ACLs are stateless.1</p>
+
+<p>Use security groups to control traffic in and out of services.</p>
 :ET

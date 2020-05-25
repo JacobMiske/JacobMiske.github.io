@@ -59,6 +59,7 @@ time {
     height: 0.5rem;
     max-width: 1080px;
     margin: 0 auto;
+    transition: height .3s ease;
 }
 /* Aside */
 aside {

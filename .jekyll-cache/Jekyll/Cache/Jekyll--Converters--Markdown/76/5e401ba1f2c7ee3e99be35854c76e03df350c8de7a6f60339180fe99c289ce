@@ -1,4 +1,4 @@
-I"É<h1 id="domain-1-design-resilient-architectures">Domain 1: Design Resilient Architectures</h1>
+I"Î<h1 id="domain-1-design-resilient-architectures">Domain 1: Design Resilient Architectures</h1>
 
 <h3 id="question-12">Question 1.2</h3>
 <p>Which of the two following AWS Services facilitates the implementation of loosely coupled architectures?</p>
@@ -167,11 +167,17 @@ ELB Classic Load Balancer. The data tier is a MySQL db running on an EC2.</p>
 <p>Your AWS Account Admin left the company. The admin has access to the root user and personal IAM admin.
 With these, they generated other IAM users and keys.</p>
 
-<p>Which should be done today?</p>
+<p>Which should be done today? To protect the AWS infrustructure.</p>
 
 <ul>
   <li>A: Change pwd and add MFA to the root user</li>
   <li>B: Put an IP Restriction on root user logins</li>
-  <li>C:</li>
+  <li>C: Rotate keys and change pwds for IAM users</li>
+  <li>D: Delete all users</li>
+  <li>E: Delete admins IAM user</li>
+  <li>F: Relaunch EC2 instances with new rules</li>
 </ul>
+
+<p>Solution: A, C, E; others are not needed or impossible</p>
+
 :ET
