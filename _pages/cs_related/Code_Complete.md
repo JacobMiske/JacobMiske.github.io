@@ -80,3 +80,20 @@ to the sun centered universe and compared it to the computer-centered data struc
 centered structured world.
 
 ### 2.2: How to Use Metaphors
+Algorithm is a set of well-defined instructions for carrying out a task. An algorithm is predictable, (often) 
+deterministic, and not subject to change (well not including probabilistic algorithms). 
+
+Having directions that told you exactly how to solve each problem would make programming easier and more predictable.
+However, the science is not that advanced yet. Conceptualizing the problem is often the most challenging part. Since
+each problem is unique.
+
+## Chapter 3: Measure Twice, Cut Once: Upstream Prerequisites
+Software construction is and should be the longest step. Determining what tools you'll need before going into the 
+process can save hours of headache and time.
+
+### 3.1 Importance of Prerequisites
+Common denominator of programmers who build high-quality software is their use of high-quality practices. Emphasize 
+quality at the beginning, middle, and end of the project.
+
+The goal is risk reduction: a good project planner clears major risks out of the way as early as possible so that the 
+bulk of the project can proceed as smoothly as possible.

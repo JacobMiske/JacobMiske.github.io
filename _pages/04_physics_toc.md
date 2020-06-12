@@ -57,3 +57,7 @@ $$
 Lecture 19
 
 <a href="/821L19/">8.21 Lecture 19</a>
+
+#### Glossary
+
+<a href="/physicsglossary/"> Physics Glossary </a>

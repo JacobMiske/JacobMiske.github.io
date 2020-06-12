@@ -1,4 +1,4 @@
-I"�<p>If you haven’t had much formal training, you are in good companies, about 50,000 new developers
+I"J<p>If you haven’t had much formal training, you are in good companies, about 50,000 new developers
 event the professional world each year (BLS 2004), but only 35,000 degrees are awarded
 each year.</p>
 
@@ -81,4 +81,21 @@ to the sun centered universe and compared it to the computer-centered data struc
 centered structured world.</p>
 
 <h3 id="22-how-to-use-metaphors">2.2: How to Use Metaphors</h3>
+<p>Algorithm is a set of well-defined instructions for carrying out a task. An algorithm is predictable, (often) 
+deterministic, and not subject to change (well not including probabilistic algorithms).</p>
+
+<p>Having directions that told you exactly how to solve each problem would make programming easier and more predictable.
+However, the science is not that advanced yet. Conceptualizing the problem is often the most challenging part. Since
+each problem is unique.</p>
+
+<h2 id="chapter-3-measure-twice-cut-once-upstream-prerequisites">Chapter 3: Measure Twice, Cut Once: Upstream Prerequisites</h2>
+<p>Software construction is and should be the longest step. Determining what tools you’ll need before going into the 
+process can save hours of headache and time.</p>
+
+<h3 id="31-importance-of-prerequisites">3.1 Importance of Prerequisites</h3>
+<p>Common denominator of programmers who build high-quality software is their use of high-quality practices. Emphasize 
+quality at the beginning, middle, and end of the project.</p>
+
+<p>The goal is risk reduction: a good project planner clears major risks out of the way as early as possible so that the 
+bulk of the project can proceed as smoothly as possible.</p>
 :ET

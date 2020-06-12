@@ -52,7 +52,7 @@ Which of the following is equal to $$ log_8 50 $$?
 - C: 0.79
 - D: 1.88
 
-Solution: D, $$ log_8 50 = \dfrac{log 50}{log 8} $$
+Solution: D, $$ log_8 50 = \dfrac{log 50}{log 8} $$ which must be greater than 1
 
 
 

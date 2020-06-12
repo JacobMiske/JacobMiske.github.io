@@ -4,13 +4,15 @@ title: Code; Things related to computer science
 permalink: /cs/
 ---
 
-# Table of Contents
+### Sections
+
 <a href="/jsreading/">JS Readings</a>
 
 <a href="/codecomplete/">Code Complete</a>
 
+<a href="/gitstrategies">Version control and git</a>
 
-# Goals
+## Goals
 - Gain competency in Microsoft Azure through Fundamentals certification and beyond
 - Gain competency in Amazon Web Services through Associate certification and beyond
 - Prove ability in React JS Front End development
@@ -48,4 +50,8 @@ Using React
     {{ page.date | date: "%d/%m/%Y" }}
 {% endif %}
 {% endraw %}
+
+### Code Glossary
+<a href="/code_glossary">Coding Glossary </a>
+
 
