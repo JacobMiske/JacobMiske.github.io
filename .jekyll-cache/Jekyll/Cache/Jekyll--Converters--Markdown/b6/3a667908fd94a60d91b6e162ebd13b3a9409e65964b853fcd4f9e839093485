@@ -1,15 +1,15 @@
-I"‰<h3 id="my-favorite-git-commands">My Favorite Git Commands</h3>
+I"Â<h3 id="my-favorite-git-commands">My Favorite Git Commands</h3>
 
 <p>Add all changed files to the next commit at or under this directory</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; git add .
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; git add .
 </code></pre></div></div>
 
 <p>Tells you what git intends to do with your changes</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; git status
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; git status
 </code></pre></div></div>
 
 <p>Creates the pull request if hooked to github</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; git push -u origin (branch name)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; git push -u origin (branch name)
 </code></pre></div></div>
 
 :ET

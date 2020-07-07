@@ -46,6 +46,9 @@ purpose of finding objects, identifying materials, or detecting processes.
 
 ## M
 
+### Magnetron
+A high-powered vacuum tube that generates microwaves using the interaction of a stream of electrons with a magnetic field while moving past a series of open metal cavities (cavity resonators). Electrons pass by the openings to these cavities and cause microwaves to oscillate within, similar to the way a whistle produces a tone when excited by an air stream blown past its opening.
+
 ### Mass Spectroscopy
 A mass spectrometer measures the spectrum of the masses of the atoms or molecules present in a gas. It uses a ion 
 source and a magnetic field to create and move a positive ion from a neutral molecule.

@@ -37,6 +37,14 @@ This table of contents breaks down some of the pages.
 
 4.3 Reactivity
 
+5. E&M Spectrum
+
+5.1 UV VI Spectrum
+
+#### Beer-Lambert Law
+<a href="/beerlambert/">Page for info</a>
+
+
 ### Statics
 
 ### Dynamics
@@ -49,7 +57,6 @@ $$
 
 ### Energy Physics
 
-<a href="/energyphysics/">General Notes</a>
 
 
 #### 8.21 Lecture Notes

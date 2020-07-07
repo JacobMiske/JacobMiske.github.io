@@ -1,4 +1,4 @@
-I"Â<p>I have decided to break this down by domain.</p>
+I"<p>I have decided to break this down by domain.</p>
 <h1 id="from-lindeberges-fe-review-manual">From Lindebergeâ€™s FE Review Manual</h1>
 
 <h3 id="units">Units</h3>
@@ -6,33 +6,33 @@
 
 <p>Calculate the weight, in lbf, of a 1.0 lbm object in a gravitational field of 27.5 ft/s^2.</p>
 
-<script type="math/tex; mode=display">\begin{align*}
+\[\begin{align*}
     F = \dfrac{m a}{g_c} = \dfrac{(1 \text{lbm})(27.5 \text{ft/s^2})}{(32.2 \dfrac{\text{lbm ft}}{\text{lbf s^2}})}
-\end{align*}</script>
+\end{align*}\]
 
 <p>Example 1.2</p>
 
 <p>A rocket with mass of 4000 lbm travels at 27,000 ft/s. What is its kinetic energy in ft-lbf?</p>
 
-<script type="math/tex; mode=display">\begin{align*}
+\[\begin{align*}
     E_k = \dfrac{m v^2}{2 g_c} = (1/2)\dfrac{(4000 \text{lbm}) (27000 ft/s)^2}{32.2\dfrac{\text{lbm ft}}{\text{lbf s^2}}}
-\end{align*}</script>
+\end{align*}\]
 
 <p>Example 1.3</p>
 
 <p>A 10 kg block hangs from a cable. What is the tension in the cable?</p>
 
-<script type="math/tex; mode=display">\begin{align*}
+\[\begin{align*}
     F = mg = (10kg)(9.81m/s^2) = 98.1 N
-\end{align*}</script>
+\end{align*}\]
 
 <p>Example 1.4</p>
 
 <p>A 10 kg block is raised vertically 3m. What is the change in potential energy?</p>
 
-<script type="math/tex; mode=display">\begin{align*}
+\[\begin{align*}
     \Delta E_p = mg \Delta h = (10kg)(9.81m/s^2)(3m) = 294 Nm = 294 J
-\end{align*}</script>
+\end{align*}\]
 
 <p>Example</p>
 

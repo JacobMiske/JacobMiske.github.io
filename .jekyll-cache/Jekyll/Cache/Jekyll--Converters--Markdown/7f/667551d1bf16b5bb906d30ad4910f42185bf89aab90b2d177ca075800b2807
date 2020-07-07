@@ -1,25 +1,24 @@
-I"¯<h3 id="thermal-stress">Thermal Stress</h3>
+I"Ø<h3 id="thermal-stress">Thermal Stress</h3>
 
 <p>If an object changes temperature, the object experiences length, area, and volume changes. 
-The thermal expansion efficient <script type="math/tex">\alpha</script> determines this change.</p>
+The thermal expansion efficient \(\alpha\) determines this change.</p>
 
-<script type="math/tex; mode=display">\delta_{th} = \alpha L (t - t_0)</script>
+\[\delta_{th} = \alpha L (t - t_0)\]
 
 <p>Dividing by the original length, we can determine the thermal strain.</p>
 
-<script type="math/tex; mode=display">\epsilon_{th} = \dfrac{\delta_{th}}{L} = \alpha (t - t_0)</script>
+\[\epsilon_{th} = \dfrac{\delta_{th}}{L} = \alpha (t - t_0)\]
 
 <p>The thermal stress and thermal strain is related by Hookeâ€™s law.</p>
 
-<script type="math/tex; mode=display">\sigma_{th} = E \epsilon_{th}</script>
+\[\sigma_{th} = E \epsilon_{th}\]
 
 <h3 id="thin-walled-tanks">Thin Walled Tanks</h3>
 
 <p>Tanks under internal pressure experience circumferential, longitudinal, and radial stresses. 
 If the wall thickness (t) is small, the radial stress is negligible.</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\dfrac{t}{R_i} < 0.1 \text{ (thin walled)} %]]></script>
+\[\dfrac{t}{R_i} &lt; 0.1 \text{ (thin walled)}\]
 
 <h4 id="hoop-stress">Hoop Stress</h4>
 

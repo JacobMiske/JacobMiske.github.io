@@ -1,4 +1,4 @@
-I"P<p>I have decided to break this down by domain.</p>
+I"Ü<p>I have decided to break this down by domain.</p>
 <h2 id="from-lindeberges-fe-review-manual">From Lindebergeâ€™s FE Review Manual</h2>
 
 <h3 id="units">Units</h3>
@@ -30,7 +30,7 @@
 
 <p>Problem 1.3</p>
 
-<p>What is a the SI unit with units <script type="math/tex">kg m^2/s^2</script></p>
+<p>What is a the SI unit with units \(kg m^2/s^2\)</p>
 
 <ul>
   <li>A: joule</li>
@@ -44,7 +44,7 @@
 <h3 id="algebra-and-linear-algebra">Algebra and Linear Algebra</h3>
 <p>Problem 5.1</p>
 
-<p>Which of the following is equal to <script type="math/tex">log_8 50</script>?</p>
+<p>Which of the following is equal to \(log_8 50\)?</p>
 
 <ul>
   <li>A: 0</li>
@@ -53,10 +53,10 @@
   <li>D: 1.88</li>
 </ul>
 
-<p>Solution: D, <script type="math/tex">log_8 50 = \dfrac{log 50}{log 8}</script> which must be greater than 1</p>
+<p>Solution: D, \(log_8 50 = \dfrac{log 50}{log 8}\) which must be greater than 1</p>
 
 <h2>JavaScript Can Validate Input</h2>
-<p>Which of the following is equal to <script type="math/tex">log_8 50</script>?</p>
+<p>Which of the following is equal to \(log_8 50\)?</p>
 
 <ul>
   <li>A: 0</li>
