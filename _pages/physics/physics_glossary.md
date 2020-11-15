@@ -29,6 +29,9 @@ A substance used to produce low temperatures; a freezing mixture. Examples are l
 
 ## G
 
+### Gas Chromatography - Mass Spectroscopy (GCMS)
+An analytical method that combines features of GC and MS to identiy different substances within a test sample. From drug detection, fire investigation, env. analysis, etc. 
+
 ## H
 
 ### Hyperspectral Imaging

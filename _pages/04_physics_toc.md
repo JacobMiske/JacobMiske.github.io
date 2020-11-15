@@ -44,6 +44,8 @@ This table of contents breaks down some of the pages.
 #### Beer-Lambert Law
 <a href="/beerlambert/">Page for info</a>
 
+#### Electrical AC Phase
+<a href="/electricalphase/">Page for info</a>
 
 ### Statics
 
