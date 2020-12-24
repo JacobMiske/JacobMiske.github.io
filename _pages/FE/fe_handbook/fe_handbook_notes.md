@@ -5,6 +5,26 @@ permalink: /fe_handbook/
 mathjax: true
 ---
 
+## Ethics
+
+## Mathematics
+
+## Statics
+
+## Dynamics
+
+## Mechanics of Materials
+
+## Thermodynamics
+
+## Fluid Mechanics
+
+## Heat Transfer
+
+## Engineering Economics
+
+## Mechanical Engineering
+
 ### Springs
 
 #### Mechanical Springs
@@ -35,3 +55,34 @@ Minimum basic load rating:
 $$ C = P L^{1/a} $$
 
 C = basic load rating, P = design radial load, L = millions of revs design life, a=3 for ball, a=10/3 for roller
+
+### HVAC
+Heating or cooling section:
+
+$$ \dot{Q} = \dot{m_a} (h_2 - h_1) $$
+
+Cooling and dehumidification:
+
+$$ \dot{Q_{out}} = \dot{m_a} [ (h_1 - h_2) - h_{f3} (w_1 - w_2) ] $$
+
+Heating and humidification:
+
+$$ \dot{Q_{in}} = \dot{m_a} (h_2 - h_1) $$
+
+### Cycles and Processes
+#### Internal Combustion Engines
+
+Compression ratio:
+
+$$ r = V_1 / V_2 $$
+
+$$ r_c = V_3 / V_2 $$
+
+Brake Power:
+
+$$ \dot{W_b} = 2 \pi T N $$
+
+T = torque in N*m, N = rotation speed
+
+#### Gas Turbines
+Brayton cycle:

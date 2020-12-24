@@ -1,4 +1,4 @@
-I"?<h3 id="springs">Springs</h3>
+I"X<h3 id="springs">Springs</h3>
 
 <h4 id="mechanical-springs">Mechanical Springs</h4>
 <p>Helical linear springs: shear stress in helical, linear spring:</p>
@@ -28,4 +28,17 @@
 \[C = P L^{1/a}\]
 
 <p>C = basic load rating, P = design radial load, L = millions of revs design life, a=3 for ball, a=10/3 for roller</p>
+
+<h3 id="hvac">HVAC</h3>
+<p>Heating or cooling section:</p>
+
+\[\dot{Q} = \dot{m_a} (h_2 - h_1)\]
+
+<p>Cooling and dehumidification:</p>
+
+\[\dot{Q_{out}} = \dot{m_a} [ (h_1 - h_2) - h_{f3} (w_1 - w_2) ]\]
+
+<p>Heating and humidification:</p>
+
+\[\dot{Q_{in}} = \dot{m_a} (h_2 - h_1)\]
 :ET
