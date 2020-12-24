@@ -1,0 +1,9 @@
+I"<h3 id="spring">Spring</h3>
+
+<h4 id="mechanical-springs">Mechanical Springs</h4>
+<p>Helical linear springs: shear stress in helical, linear spring:</p>
+
+\[\tau = K_s \dfrac{8 F D}{\pi d^3}\]
+
+<p>d is wire diameter, F is force, D is spring diameter, K = (2C+1)/(2C), C = D/d</p>
+:ET

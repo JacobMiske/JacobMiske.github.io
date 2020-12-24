@@ -10,6 +10,10 @@ evaluate engineers and provide certification.
 
 ## Resources
 
+### FE Handbook Notes
+
+<a href="/fe_handbook">FE Handbook Notes</a>
+
 ### FE Equation Booklet
 
 <a href="/fe_equations_ref_hvac/">Refridgeration and HVAC</a>
