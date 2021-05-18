@@ -9,13 +9,13 @@ Physics is quite broad in the wide arrangement of subjects.
 This table of contents breaks down some of the pages.
 
 ### Sections
-1. Mechanical
+1 Mechanical
 
 1.1. Statics
 
 1.2. Dynamics
 
-2. Electrical
+2 Electrical
 
 2.1 E&M
 
@@ -23,13 +23,13 @@ This table of contents breaks down some of the pages.
 
 2.3. Electricity
 
-3. Energy
+3 Energy
 
 3.1 Fundamental Laws
 
 3.2 
 
-4. Nuclear 
+4 Nuclear 
 
 4.1 Fission
 
@@ -37,7 +37,7 @@ This table of contents breaks down some of the pages.
 
 4.3 Reactivity
 
-5. E&M Spectrum
+5 E&M Spectrum
 
 5.1 UV VI Spectrum
 

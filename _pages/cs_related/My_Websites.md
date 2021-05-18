@@ -4,25 +4,6 @@ title: My Websites
 permalink: /mywebsites/
 ---
 
-My presence on the internet as much as I can control it.
-
-## Social Media
-
-#### Facebook
-I have a Facebook account.
-
-#### LinkedIn
-I have a LinkedIn account.
-
-#### Instagram
-I have an Instagram account.
-
-#### Twitter
-I have a Twitter account.
-
-<a href="https://twitter.com/SirMiske">Link to Twitter</a>
-
-## My Sites
 My sites are those which I own the domain on the DNS.
 
 #### jacobmiske.github.io

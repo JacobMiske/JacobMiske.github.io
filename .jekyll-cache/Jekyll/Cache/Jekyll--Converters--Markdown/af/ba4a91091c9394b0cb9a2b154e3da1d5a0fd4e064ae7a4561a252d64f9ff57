@@ -1,0 +1,44 @@
+I"�<p>My presence on the internet as much as I can control it.</p>
+
+<h2 id="social-media">Social Media</h2>
+
+<p>I have accounts on various social media sites.</p>
+
+<h2 id="my-sites">My Sites</h2>
+<p>My sites are those which I own the domain on the DNS.</p>
+
+<h4 id="jacobmiskegithubio">jacobmiske.github.io</h4>
+<p>This site. A Jekyll/Ruby based blog and CMS.</p>
+
+<p>Hosted: Github Pages</p>
+
+<p>Services: Jekyll, Ruby</p>
+
+<h4 id="jacobmiskecom">jacobmiske.com</h4>
+<p>My personnel blog and easy-to-use corner of the web. I use Blogger because it is easy and reliable.
+I don’t want to worry about handling the services involved in this site. I am only interested in the content.</p>
+
+<p>Hosted: Google Domains</p>
+
+<p>Service(s): Blogger</p>
+
+<h4 id="jacobmiskenet">jacobmiske.net</h4>
+<p>I don’t know what to do yet with this site.</p>
+
+<p>Hosted: Route 53 (AWS)</p>
+
+<p>Service(s): Static site S3 hosting (AWS)</p>
+
+<h4 id="worklighttoolscom">worklighttools.com</h4>
+<p>This website is an attempt to learn more about a wide range of web tools. I am trying to roll my own auth, CRUD, APIs, 
+and much more to create an e-commerce site.</p>
+
+<p>Hosted: Route 53 (AWS)</p>
+
+<p>Service(s): Amplify (AWS App Client), Lambda Functions, React (JS Framework)</p>
+
+<h4 id="terrascope-mission-2020">Terrascope Mission 2020</h4>
+<p>I contributed some sections of info for this site produced in 2016.</p>
+
+<p><a href="http://mission2020.mit.edu/"> The site </a></p>
+:ET
