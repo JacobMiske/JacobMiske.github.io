@@ -4,20 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This website is a content management system using the Jekyll framework.
+I'm Jacob Miske, a mechanical engineer based in Boston. I'm a PhD candidate in the Transformative Robotics Lab at
+Northeastern University and CTO of InLoop Foam, Inc. My work covers shape-changing
+robots, auxetic lattices and 3D printed foams.
 
-It is primarily used by Jacob Miske to record and share notes with others.
+See [Experience](/experience/) for my background and [Research & Projects](/research/) for my publications
+and builds.
 
-### Purpose
-* Manage my notes
-* Provide an education resource
-* Share knowledge with others
-* Learn more of the Ruby language and Jekyll framework in the process
+### About this site
 
-### The Internet and Me
+I started this Jekyll site in 2020 to keep my study notes organized, and it still serves that purpose:
 
-Creating this CMS site and the content reminds me of keeping track of own's presence in the world.
+* Physics, FE exam and GRE study notes
+* Notes on programming, AWS and Azure
+* A place to learn Ruby and Jekyll along the way
 
-In particular, that presence on the internet.
-
-<a href="/mywebsites/">My Websites</a>
+My day-to-day writing lives on my blog at [jacobmiske.com](https://www.jacobmiske.com). For a list of the other
+places I keep things online, see [My Websites](/mywebsites/).

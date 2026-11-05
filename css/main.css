@@ -306,3 +306,33 @@ footer {
     color: #099;
 }
 
+/* Home intro */
+.intro {
+    display: flex;
+    gap: 1.5em;
+    align-items: flex-start;
+}
+.intro .headshot {
+    width: 10em;
+    flex-shrink: 0;
+    border-radius: 4px;
+}
+/* Small screens: let the nav wrap in normal flow instead of covering the header */
+@media (max-width: 700px) {
+    aside {
+        position: static;
+    }
+    aside .container {
+        height: auto;
+    }
+    header {
+        margin-top: 0;
+        height: auto;
+    }
+    aside nav ul li a {
+        padding: 8px 10px;
+    }
+    .intro {
+        flex-direction: column;
+    }
+}

@@ -1,8 +1,9 @@
 # Site Settings
-title: My Pile of Notes - CMS Site
+title: Jacob Miske
 email: jacobmiske@gmail.com
 description: >
-  Getting CMS started with Jekyll.
+  Jacob Miske: mechanical engineer, PhD candidate at Northeastern University, and CTO of InLoop Foam.
+  Experience, research, projects and study notes.
 baseurl: ""
 url: "https://jacobmiske.github.io"
 twitter_username: SirMiske
