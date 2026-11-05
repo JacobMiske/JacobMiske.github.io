@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 I keep an active blog at my personal website 
-<a href="jacobmiske.com">jacobmiske.com</a>.
+<a href="https://www.jacobmiske.com">jacobmiske.com</a>.
 
 Email me at [jacobmiske@gmail.com](mailto:jacobmiske@gmail.com).
 

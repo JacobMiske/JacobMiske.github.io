@@ -24,11 +24,11 @@ My way of getting started with Ruby and Jekyll. Using to manage my various notes
 
 ## TODO
 
--[x] Add sections for AWS and Azure learning
--[x] Write function for multiple choice question (javascript)
--[ ] Add more structure to the ToCs (tables of content)
--[ ] Outline goals for each section
--[ ] Self set deadlines for the goals
+- [x] Add sections for AWS and Azure learning
+- [x] Write function for multiple choice question (javascript)
+- [ ] Add more structure to the ToCs (tables of content)
+- [ ] Outline goals for each section
+- [ ] Self set deadlines for the goals
 
 ## Author
 

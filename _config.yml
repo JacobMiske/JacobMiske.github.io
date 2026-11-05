@@ -3,8 +3,8 @@ title: My Pile of Notes - CMS Site
 email: jacobmiske@gmail.com
 description: >
   Getting CMS started with Jekyll.
-baseurl: "/"
-url: "http://jacobmiske.github.io"
+baseurl: ""
+url: "https://jacobmiske.github.io"
 twitter_username: SirMiske
 github_username:  JacobMiske
 # Build Settings
@@ -15,7 +15,3 @@ markdown: kramdown
 kramdown:
   input: GFM
 mathjax: true
-# Collections
-collections:
-  portfolio:
-    output: true
